@@ -1,0 +1,11 @@
+dilemma_id,dilemma_name,p_inapp_congruent,p_inapp_incongruent,U,D,n_valid_congruent,n_valid_incongruent,U_valid,D_valid,notes
+abortion,Abortion,0.0,0.0,0.0,0.0,2,2,True,True,
+animal_research,Animal Research,1.0,0.0,1.0,nan,2,2,True,False,D undefined: denominator (1-U) ≈ 0.
+border_crossing,Border Crossing,1.0,0.0,1.0,nan,2,2,True,False,D undefined: denominator (1-U) ≈ 0.
+car_accident,Car Accident,1.0,1.0,0.0,1.0,2,2,True,True,
+crying_baby,Crying Baby,1.0,1.0,0.0,1.0,2,2,True,True,
+hard_times,Hard Times,1.0,1.0,0.0,1.0,2,2,True,True,
+relationship,Relationship,1.0,1.0,0.0,1.0,2,2,True,True,
+time_machine,Time Machine,1.0,1.0,0.0,1.0,2,2,True,True,
+torture,Torture,1.0,1.0,0.0,1.0,2,2,True,True,
+vaccine_policy,Vaccine Policy,1.0,0.0,1.0,nan,2,2,True,False,D undefined: denominator (1-U) ≈ 0.

@@ -1,0 +1,21 @@
+dilemma_id,dilemma_name,variant,n_runs,n_valid,n_inappropriate,p_inappropriate,n_appropriate,p_appropriate,n_invalid
+abortion,Abortion,congruent,2,0,0,nan,0,nan,2
+abortion,Abortion,incongruent,2,0,0,nan,0,nan,2
+animal_research,Animal Research,congruent,2,0,0,nan,0,nan,2
+animal_research,Animal Research,incongruent,2,0,0,nan,0,nan,2
+border_crossing,Border Crossing,congruent,2,0,0,nan,0,nan,2
+border_crossing,Border Crossing,incongruent,2,0,0,nan,0,nan,2
+car_accident,Car Accident,congruent,2,0,0,nan,0,nan,2
+car_accident,Car Accident,incongruent,2,0,0,nan,0,nan,2
+crying_baby,Crying Baby,congruent,2,0,0,nan,0,nan,2
+crying_baby,Crying Baby,incongruent,2,0,0,nan,0,nan,2
+hard_times,Hard Times,congruent,2,0,0,nan,0,nan,2
+hard_times,Hard Times,incongruent,2,0,0,nan,0,nan,2
+relationship,Relationship,congruent,2,0,0,nan,0,nan,2
+relationship,Relationship,incongruent,2,0,0,nan,0,nan,2
+time_machine,Time Machine,congruent,2,0,0,nan,0,nan,2
+time_machine,Time Machine,incongruent,2,0,0,nan,0,nan,2
+torture,Torture,congruent,2,0,0,nan,0,nan,2
+torture,Torture,incongruent,2,0,0,nan,0,nan,2
+vaccine_policy,Vaccine Policy,congruent,2,0,0,nan,0,nan,2
+vaccine_policy,Vaccine Policy,incongruent,2,0,0,nan,0,nan,2
