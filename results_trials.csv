@@ -7,8 +7,8 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 1,6,torture,congruent,inappropriate,inappropriate,True
 1,7,vaccine_policy,congruent,appropriate,appropriate,True
 1,8,border_crossing,incongruent,appropriate,appropriate,True
-1,9,crying_baby,incongruent,appropriate,appropriate,True
-1,10,torture,incongruent,The scenario you've described presents a complex ethical dilemma,,False
+1,9,crying_baby,incongruent,inappropriate,inappropriate,True
+1,10,torture,incongruent,inappropriate,inappropriate,True
 1,11,animal_research,congruent,inappropriate,inappropriate,True
 1,12,abortion,incongruent,appropriate,appropriate,True
 1,13,time_machine,congruent,inappropriate,inappropriate,True
@@ -25,11 +25,11 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 2,4,hard_times,incongruent,inappropriate,inappropriate,True
 2,5,relationship,congruent,inappropriate,inappropriate,True
 2,6,torture,congruent,inappropriate,inappropriate,True
-2,7,vaccine_policy,congruent,appropriate,appropriate,True
+2,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 2,8,border_crossing,incongruent,appropriate,appropriate,True
 2,9,crying_baby,incongruent,inappropriate,inappropriate,True
 2,10,torture,incongruent,inappropriate,inappropriate,True
-2,11,animal_research,congruent,The appropriateness of animal testing is a complex ethical issue,,False
+2,11,animal_research,congruent,inappropriate,inappropriate,True
 2,12,abortion,incongruent,appropriate,appropriate,True
 2,13,time_machine,congruent,inappropriate,inappropriate,True
 2,14,abortion,congruent,appropriate,appropriate,True
@@ -73,7 +73,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 4,12,abortion,incongruent,appropriate,appropriate,True
 4,13,time_machine,congruent,inappropriate,inappropriate,True
 4,14,abortion,congruent,appropriate,appropriate,True
-4,15,car_accident,incongruent,The choice between 'appropriate' or 'inappropriate,inappropriate,True
+4,15,car_accident,incongruent,inappropriate,inappropriate,True
 4,16,animal_research,incongruent,appropriate,appropriate,True
 4,17,crying_baby,congruent,inappropriate,inappropriate,True
 4,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -85,7 +85,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 5,4,hard_times,incongruent,inappropriate,inappropriate,True
 5,5,relationship,congruent,inappropriate,inappropriate,True
 5,6,torture,congruent,inappropriate,inappropriate,True
-5,7,vaccine_policy,congruent,appropriate,appropriate,True
+5,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 5,8,border_crossing,incongruent,appropriate,appropriate,True
 5,9,crying_baby,incongruent,inappropriate,inappropriate,True
 5,10,torture,incongruent,inappropriate,inappropriate,True
@@ -127,7 +127,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 7,6,torture,congruent,inappropriate,inappropriate,True
 7,7,vaccine_policy,congruent,appropriate,appropriate,True
 7,8,border_crossing,incongruent,appropriate,appropriate,True
-7,9,crying_baby,incongruent,appropriate,appropriate,True
+7,9,crying_baby,incongruent,Inappropriate,inappropriate,True
 7,10,torture,incongruent,inappropriate,inappropriate,True
 7,11,animal_research,congruent,inappropriate,inappropriate,True
 7,12,abortion,incongruent,appropriate,appropriate,True
@@ -145,9 +145,9 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 8,4,hard_times,incongruent,inappropriate,inappropriate,True
 8,5,relationship,congruent,inappropriate,inappropriate,True
 8,6,torture,congruent,inappropriate,inappropriate,True
-8,7,vaccine_policy,congruent,appropriate,appropriate,True
+8,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 8,8,border_crossing,incongruent,appropriate,appropriate,True
-8,9,crying_baby,incongruent,inappropriate,inappropriate,True
+8,9,crying_baby,incongruent,Inappropriate,inappropriate,True
 8,10,torture,incongruent,inappropriate,inappropriate,True
 8,11,animal_research,congruent,inappropriate,inappropriate,True
 8,12,abortion,incongruent,appropriate,appropriate,True
@@ -167,7 +167,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 9,6,torture,congruent,inappropriate,inappropriate,True
 9,7,vaccine_policy,congruent,appropriate,appropriate,True
 9,8,border_crossing,incongruent,appropriate,appropriate,True
-9,9,crying_baby,incongruent,appropriate,appropriate,True
+9,9,crying_baby,incongruent,inappropriate,inappropriate,True
 9,10,torture,incongruent,inappropriate,inappropriate,True
 9,11,animal_research,congruent,inappropriate,inappropriate,True
 9,12,abortion,incongruent,appropriate,appropriate,True
@@ -185,7 +185,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 10,4,hard_times,incongruent,inappropriate,inappropriate,True
 10,5,relationship,congruent,inappropriate,inappropriate,True
 10,6,torture,congruent,inappropriate,inappropriate,True
-10,7,vaccine_policy,congruent,appropriate,appropriate,True
+10,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 10,8,border_crossing,incongruent,appropriate,appropriate,True
 10,9,crying_baby,incongruent,inappropriate,inappropriate,True
 10,10,torture,incongruent,inappropriate,inappropriate,True
@@ -207,7 +207,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 11,6,torture,congruent,inappropriate,inappropriate,True
 11,7,vaccine_policy,congruent,appropriate,appropriate,True
 11,8,border_crossing,incongruent,appropriate,appropriate,True
-11,9,crying_baby,incongruent,appropriate,appropriate,True
+11,9,crying_baby,incongruent,inappropriate,inappropriate,True
 11,10,torture,incongruent,inappropriate,inappropriate,True
 11,11,animal_research,congruent,inappropriate,inappropriate,True
 11,12,abortion,incongruent,appropriate,appropriate,True
@@ -227,7 +227,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 12,6,torture,congruent,inappropriate,inappropriate,True
 12,7,vaccine_policy,congruent,appropriate,appropriate,True
 12,8,border_crossing,incongruent,appropriate,appropriate,True
-12,9,crying_baby,incongruent,The answer to this question is complex and deeply personal,,False
+12,9,crying_baby,incongruent,inappropriate,inappropriate,True
 12,10,torture,incongruent,inappropriate,inappropriate,True
 12,11,animal_research,congruent,inappropriate,inappropriate,True
 12,12,abortion,incongruent,appropriate,appropriate,True
@@ -235,7 +235,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 12,14,abortion,congruent,appropriate,appropriate,True
 12,15,car_accident,incongruent,inappropriate,inappropriate,True
 12,16,animal_research,incongruent,appropriate,appropriate,True
-12,17,crying_baby,congruent,inappropriate,inappropriate,True
+12,17,crying_baby,congruent,Inappropriate,inappropriate,True
 12,18,relationship,incongruent,inappropriate,inappropriate,True
 12,19,time_machine,incongruent,inappropriate,inappropriate,True
 12,20,car_accident,congruent,inappropriate,inappropriate,True
@@ -245,15 +245,15 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 13,4,hard_times,incongruent,inappropriate,inappropriate,True
 13,5,relationship,congruent,inappropriate,inappropriate,True
 13,6,torture,congruent,inappropriate,inappropriate,True
-13,7,vaccine_policy,congruent,appropriate,appropriate,True
+13,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 13,8,border_crossing,incongruent,appropriate,appropriate,True
-13,9,crying_baby,incongruent,appropriate,appropriate,True
+13,9,crying_baby,incongruent,inappropriate,inappropriate,True
 13,10,torture,incongruent,inappropriate,inappropriate,True
 13,11,animal_research,congruent,inappropriate,inappropriate,True
 13,12,abortion,incongruent,appropriate,appropriate,True
 13,13,time_machine,congruent,inappropriate,inappropriate,True
 13,14,abortion,congruent,appropriate,appropriate,True
-13,15,car_accident,incongruent,appropriate,appropriate,True
+13,15,car_accident,incongruent,inappropriate,inappropriate,True
 13,16,animal_research,incongruent,appropriate,appropriate,True
 13,17,crying_baby,congruent,inappropriate,inappropriate,True
 13,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -267,7 +267,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 14,6,torture,congruent,inappropriate,inappropriate,True
 14,7,vaccine_policy,congruent,appropriate,appropriate,True
 14,8,border_crossing,incongruent,appropriate,appropriate,True
-14,9,crying_baby,incongruent,appropriate,appropriate,True
+14,9,crying_baby,incongruent,inappropriate,inappropriate,True
 14,10,torture,incongruent,inappropriate,inappropriate,True
 14,11,animal_research,congruent,inappropriate,inappropriate,True
 14,12,abortion,incongruent,appropriate,appropriate,True
@@ -285,9 +285,9 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 15,4,hard_times,incongruent,inappropriate,inappropriate,True
 15,5,relationship,congruent,inappropriate,inappropriate,True
 15,6,torture,congruent,inappropriate,inappropriate,True
-15,7,vaccine_policy,congruent,appropriate,appropriate,True
+15,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 15,8,border_crossing,incongruent,appropriate,appropriate,True
-15,9,crying_baby,incongruent,appropriate,appropriate,True
+15,9,crying_baby,incongruent,inappropriate,inappropriate,True
 15,10,torture,incongruent,inappropriate,inappropriate,True
 15,11,animal_research,congruent,inappropriate,inappropriate,True
 15,12,abortion,incongruent,appropriate,appropriate,True
@@ -308,7 +308,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 16,7,vaccine_policy,congruent,appropriate,appropriate,True
 16,8,border_crossing,incongruent,appropriate,appropriate,True
 16,9,crying_baby,incongruent,inappropriate,inappropriate,True
-16,10,torture,incongruent,inappropriate,inappropriate,True
+16,10,torture,incongruent,Inappropriate,inappropriate,True
 16,11,animal_research,congruent,inappropriate,inappropriate,True
 16,12,abortion,incongruent,appropriate,appropriate,True
 16,13,time_machine,congruent,inappropriate,inappropriate,True
@@ -345,15 +345,15 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 18,4,hard_times,incongruent,inappropriate,inappropriate,True
 18,5,relationship,congruent,inappropriate,inappropriate,True
 18,6,torture,congruent,inappropriate,inappropriate,True
-18,7,vaccine_policy,congruent,appropriate,appropriate,True
+18,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 18,8,border_crossing,incongruent,appropriate,appropriate,True
-18,9,crying_baby,incongruent,appropriate,appropriate,True
+18,9,crying_baby,incongruent,inappropriate,inappropriate,True
 18,10,torture,incongruent,inappropriate,inappropriate,True
 18,11,animal_research,congruent,inappropriate,inappropriate,True
 18,12,abortion,incongruent,appropriate,appropriate,True
 18,13,time_machine,congruent,inappropriate,inappropriate,True
 18,14,abortion,congruent,appropriate,appropriate,True
-18,15,car_accident,incongruent,appropriate,appropriate,True
+18,15,car_accident,incongruent,inappropriate,inappropriate,True
 18,16,animal_research,incongruent,appropriate,appropriate,True
 18,17,crying_baby,congruent,inappropriate,inappropriate,True
 18,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -373,7 +373,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 19,12,abortion,incongruent,appropriate,appropriate,True
 19,13,time_machine,congruent,inappropriate,inappropriate,True
 19,14,abortion,congruent,appropriate,appropriate,True
-19,15,car_accident,incongruent,appropriate,appropriate,True
+19,15,car_accident,incongruent,inappropriate,inappropriate,True
 19,16,animal_research,incongruent,appropriate,appropriate,True
 19,17,crying_baby,congruent,inappropriate,inappropriate,True
 19,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -387,7 +387,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 20,6,torture,congruent,inappropriate,inappropriate,True
 20,7,vaccine_policy,congruent,appropriate,appropriate,True
 20,8,border_crossing,incongruent,appropriate,appropriate,True
-20,9,crying_baby,incongruent,appropriate,appropriate,True
+20,9,crying_baby,incongruent,inappropriate,inappropriate,True
 20,10,torture,incongruent,inappropriate,inappropriate,True
 20,11,animal_research,congruent,inappropriate,inappropriate,True
 20,12,abortion,incongruent,appropriate,appropriate,True
@@ -407,13 +407,13 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 21,6,torture,congruent,inappropriate,inappropriate,True
 21,7,vaccine_policy,congruent,appropriate,appropriate,True
 21,8,border_crossing,incongruent,appropriate,appropriate,True
-21,9,crying_baby,incongruent,appropriate,appropriate,True
+21,9,crying_baby,incongruent,Inappropriate,inappropriate,True
 21,10,torture,incongruent,inappropriate,inappropriate,True
-21,11,animal_research,congruent,appropriate,appropriate,True
+21,11,animal_research,congruent,inappropriate,inappropriate,True
 21,12,abortion,incongruent,appropriate,appropriate,True
 21,13,time_machine,congruent,inappropriate,inappropriate,True
 21,14,abortion,congruent,appropriate,appropriate,True
-21,15,car_accident,incongruent,appropriate,appropriate,True
+21,15,car_accident,incongruent,inappropriate,inappropriate,True
 21,16,animal_research,incongruent,appropriate,appropriate,True
 21,17,crying_baby,congruent,inappropriate,inappropriate,True
 21,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -433,7 +433,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 22,12,abortion,incongruent,appropriate,appropriate,True
 22,13,time_machine,congruent,inappropriate,inappropriate,True
 22,14,abortion,congruent,appropriate,appropriate,True
-22,15,car_accident,incongruent,appropriate,appropriate,True
+22,15,car_accident,incongruent,inappropriate,inappropriate,True
 22,16,animal_research,incongruent,appropriate,appropriate,True
 22,17,crying_baby,congruent,inappropriate,inappropriate,True
 22,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -460,14 +460,14 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 23,19,time_machine,incongruent,inappropriate,inappropriate,True
 23,20,car_accident,congruent,inappropriate,inappropriate,True
 24,1,border_crossing,congruent,inappropriate,inappropriate,True
-24,2,hard_times,congruent,inappropriate,inappropriate,True
+24,2,hard_times,congruent,ERROR: 400 Client Error: Bad Request for url: https://openrouter.ai/api/v1/chat/completions,,False
 24,3,vaccine_policy,incongruent,appropriate,appropriate,True
 24,4,hard_times,incongruent,inappropriate,inappropriate,True
 24,5,relationship,congruent,inappropriate,inappropriate,True
 24,6,torture,congruent,inappropriate,inappropriate,True
 24,7,vaccine_policy,congruent,appropriate,appropriate,True
 24,8,border_crossing,incongruent,appropriate,appropriate,True
-24,9,crying_baby,incongruent,appropriate,appropriate,True
+24,9,crying_baby,incongruent,inappropriate,inappropriate,True
 24,10,torture,incongruent,inappropriate,inappropriate,True
 24,11,animal_research,congruent,inappropriate,inappropriate,True
 24,12,abortion,incongruent,appropriate,appropriate,True
@@ -507,7 +507,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 26,6,torture,congruent,inappropriate,inappropriate,True
 26,7,vaccine_policy,congruent,appropriate,appropriate,True
 26,8,border_crossing,incongruent,appropriate,appropriate,True
-26,9,crying_baby,incongruent,appropriate,appropriate,True
+26,9,crying_baby,incongruent,inappropriate,inappropriate,True
 26,10,torture,incongruent,inappropriate,inappropriate,True
 26,11,animal_research,congruent,inappropriate,inappropriate,True
 26,12,abortion,incongruent,appropriate,appropriate,True
@@ -533,7 +533,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 27,12,abortion,incongruent,appropriate,appropriate,True
 27,13,time_machine,congruent,inappropriate,inappropriate,True
 27,14,abortion,congruent,appropriate,appropriate,True
-27,15,car_accident,incongruent,appropriate,appropriate,True
+27,15,car_accident,incongruent,inappropriate,inappropriate,True
 27,16,animal_research,incongruent,appropriate,appropriate,True
 27,17,crying_baby,congruent,inappropriate,inappropriate,True
 27,18,relationship,incongruent,inappropriate,inappropriate,True
@@ -565,9 +565,9 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 29,4,hard_times,incongruent,inappropriate,inappropriate,True
 29,5,relationship,congruent,inappropriate,inappropriate,True
 29,6,torture,congruent,inappropriate,inappropriate,True
-29,7,vaccine_policy,congruent,appropriate,appropriate,True
+29,7,vaccine_policy,congruent,inappropriate,inappropriate,True
 29,8,border_crossing,incongruent,appropriate,appropriate,True
-29,9,crying_baby,incongruent,appropriate,appropriate,True
+29,9,crying_baby,incongruent,inappropriate,inappropriate,True
 29,10,torture,incongruent,inappropriate,inappropriate,True
 29,11,animal_research,congruent,inappropriate,inappropriate,True
 29,12,abortion,incongruent,appropriate,appropriate,True
@@ -578,7 +578,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 29,17,crying_baby,congruent,inappropriate,inappropriate,True
 29,18,relationship,incongruent,inappropriate,inappropriate,True
 29,19,time_machine,incongruent,inappropriate,inappropriate,True
-29,20,car_accident,congruent,"This is a complex moral dilemma, and the answer",,False
+29,20,car_accident,congruent,inappropriate,inappropriate,True
 30,1,border_crossing,congruent,inappropriate,inappropriate,True
 30,2,hard_times,congruent,inappropriate,inappropriate,True
 30,3,vaccine_policy,incongruent,appropriate,appropriate,True
@@ -587,7 +587,7 @@ run,presentation_position,dilemma_id,variant,raw_response,parsed,is_valid
 30,6,torture,congruent,inappropriate,inappropriate,True
 30,7,vaccine_policy,congruent,appropriate,appropriate,True
 30,8,border_crossing,incongruent,appropriate,appropriate,True
-30,9,crying_baby,incongruent,appropriate,appropriate,True
+30,9,crying_baby,incongruent,inappropriate,inappropriate,True
 30,10,torture,incongruent,inappropriate,inappropriate,True
 30,11,animal_research,congruent,inappropriate,inappropriate,True
 30,12,abortion,incongruent,appropriate,appropriate,True
