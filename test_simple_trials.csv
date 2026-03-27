@@ -1,0 +1,61 @@
+run,position,dilemma_id,dilemma_name,variant,raw_response,endorsement,likelihood,confidence,fully_valid
+1,1,border_crossing,Border Crossing,congruent,No,no,,,True
+1,2,hard_times,Hard Times,congruent,No,no,,,True
+1,3,vaccine_policy,Vaccine Policy,incongruent,Yes,yes,,,True
+1,4,hard_times,Hard Times,incongruent,No,no,,,True
+1,5,relationship,Relationship,congruent,No,no,,,True
+1,6,torture,Torture,congruent,No,no,,,True
+1,7,vaccine_policy,Vaccine Policy,congruent,Yes,yes,,,True
+1,8,border_crossing,Border Crossing,incongruent,Yes,yes,,,True
+1,9,crying_baby,Crying Baby,incongruent,No,no,,,True
+1,10,torture,Torture,incongruent,No,no,,,True
+1,11,animal_research,Animal Research,congruent,No,no,,,True
+1,12,abortion,Abortion,incongruent,Yes,yes,,,True
+1,13,time_machine,Time Machine,congruent,No,no,,,True
+1,14,abortion,Abortion,congruent,Yes,yes,,,True
+1,15,car_accident,Car Accident,incongruent,No,no,,,True
+1,16,animal_research,Animal Research,incongruent,Yes,yes,,,True
+1,17,crying_baby,Crying Baby,congruent,No,no,,,True
+1,18,relationship,Relationship,incongruent,No,no,,,True
+1,19,time_machine,Time Machine,incongruent,No,no,,,True
+1,20,car_accident,Car Accident,congruent,No,no,,,True
+2,1,border_crossing,Border Crossing,congruent,No,no,,,True
+2,2,hard_times,Hard Times,congruent,No,no,,,True
+2,3,vaccine_policy,Vaccine Policy,incongruent,Yes,yes,,,True
+2,4,hard_times,Hard Times,incongruent,No,no,,,True
+2,5,relationship,Relationship,congruent,No,no,,,True
+2,6,torture,Torture,congruent,No,no,,,True
+2,7,vaccine_policy,Vaccine Policy,congruent,Yes,yes,,,True
+2,8,border_crossing,Border Crossing,incongruent,Yes,yes,,,True
+2,9,crying_baby,Crying Baby,incongruent,No,no,,,True
+2,10,torture,Torture,incongruent,No,no,,,True
+2,11,animal_research,Animal Research,congruent,Yes,yes,,,True
+2,12,abortion,Abortion,incongruent,Yes,yes,,,True
+2,13,time_machine,Time Machine,congruent,No,no,,,True
+2,14,abortion,Abortion,congruent,Yes,yes,,,True
+2,15,car_accident,Car Accident,incongruent,No,no,,,True
+2,16,animal_research,Animal Research,incongruent,Yes,yes,,,True
+2,17,crying_baby,Crying Baby,congruent,No,no,,,True
+2,18,relationship,Relationship,incongruent,No,no,,,True
+2,19,time_machine,Time Machine,incongruent,No,no,,,True
+2,20,car_accident,Car Accident,congruent,No,no,,,True
+3,1,border_crossing,Border Crossing,congruent,No,no,,,True
+3,2,hard_times,Hard Times,congruent,No,no,,,True
+3,3,vaccine_policy,Vaccine Policy,incongruent,Yes,yes,,,True
+3,4,hard_times,Hard Times,incongruent,No,no,,,True
+3,5,relationship,Relationship,congruent,No,no,,,True
+3,6,torture,Torture,congruent,No,no,,,True
+3,7,vaccine_policy,Vaccine Policy,congruent,Yes,yes,,,True
+3,8,border_crossing,Border Crossing,incongruent,Yes,yes,,,True
+3,9,crying_baby,Crying Baby,incongruent,No,no,,,True
+3,10,torture,Torture,incongruent,No,no,,,True
+3,11,animal_research,Animal Research,congruent,No,no,,,True
+3,12,abortion,Abortion,incongruent,Yes,yes,,,True
+3,13,time_machine,Time Machine,congruent,No,no,,,True
+3,14,abortion,Abortion,congruent,Yes,yes,,,True
+3,15,car_accident,Car Accident,incongruent,No,no,,,True
+3,16,animal_research,Animal Research,incongruent,Yes,yes,,,True
+3,17,crying_baby,Crying Baby,congruent,No,no,,,True
+3,18,relationship,Relationship,incongruent,No,no,,,True
+3,19,time_machine,Time Machine,incongruent,No,no,,,True
+3,20,car_accident,Car Accident,congruent,No,no,,,True

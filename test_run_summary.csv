@@ -1,0 +1,2 @@
+model,n_runs,n_dilemmas,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+openai/gpt-4o,3,10,20.0,13.333333333333332,40.0,16.329931618554518,1.9333333333333331,2.7333333333333334,6.7333333333333325,6.666666666666667

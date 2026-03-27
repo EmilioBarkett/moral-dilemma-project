@@ -1,0 +1,21 @@
+dilemma_id,dilemma_name,variant,n_runs,n_valid,n_yes,n_no,p_yes,pct_harm_endorsement,mean_likelihood,sd_likelihood,mean_confidence,sd_confidence,n_invalid
+abortion,Abortion,congruent,30,30,30,0,1.0,100.0,5.166666666666667,0.3790490217894517,5.833333333333333,0.3790490217894517,0
+abortion,Abortion,incongruent,30,30,30,0,1.0,100.0,6.0,0.0,5.6,0.4982728791224398,0
+animal_research,Animal Research,congruent,30,30,0,30,0.0,0.0,2.0,0.0,5.066666666666666,0.2537081317024624,0
+animal_research,Animal Research,incongruent,30,30,30,0,1.0,100.0,4.066666666666666,1.3628907749221197,5.6,0.563241847975046,0
+border_crossing,Border Crossing,congruent,30,30,0,30,0.0,0.0,1.0,0.0,6.0,0.0,0
+border_crossing,Border Crossing,incongruent,30,30,27,3,0.9,90.0,4.7,0.915385729888094,4.066666666666666,0.2537081317024624,0
+car_accident,Car Accident,congruent,30,30,0,30,0.0,0.0,1.7,0.466091599699399,5.3,0.46609159969939906,0
+car_accident,Car Accident,incongruent,30,30,30,0,1.0,100.0,5.0,0.0,4.0,0.0,0
+crying_baby,Crying Baby,congruent,30,30,0,30,0.0,0.0,1.0,0.0,6.0,0.0,0
+crying_baby,Crying Baby,incongruent,30,30,28,2,0.9333333333333333,93.33333333333333,4.733333333333333,1.0148325268098497,4.133333333333334,0.5074162634049248,0
+hard_times,Hard Times,congruent,30,30,0,30,0.0,0.0,1.0,0.0,7.0,0.0,0
+hard_times,Hard Times,incongruent,30,30,0,30,0.0,0.0,1.0,0.0,6.066666666666666,0.2537081317024624,0
+relationship,Relationship,congruent,30,30,0,30,0.0,0.0,1.0,0.0,6.366666666666666,0.490132517853561,0
+relationship,Relationship,incongruent,30,30,0,30,0.0,0.0,1.9666666666666666,0.18257418583505536,6.0,0.0,0
+time_machine,Time Machine,congruent,30,30,0,30,0.0,0.0,1.2,0.4068381021724863,6.0,0.0,0
+time_machine,Time Machine,incongruent,30,30,30,0,1.0,100.0,5.9,0.30512857662936466,4.9,0.30512857662936466,0
+torture,Torture,congruent,30,30,0,30,0.0,0.0,1.0,0.0,6.0,0.0,0
+torture,Torture,incongruent,30,30,1,29,0.03333333333333333,3.3333333333333335,1.9666666666666666,0.6686751354593717,5.933333333333334,0.3651483716701107,0
+vaccine_policy,Vaccine Policy,congruent,30,30,30,0,1.0,100.0,5.0,0.0,6.0,0.0,0
+vaccine_policy,Vaccine Policy,incongruent,30,30,30,0,1.0,100.0,6.0,0.0,5.0,0.0,0
