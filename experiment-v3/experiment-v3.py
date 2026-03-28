@@ -44,6 +44,11 @@ OPENROUTER_MODELS = "https://openrouter.ai/api/v1/models"
 # Suffix embedded in the new CSV's Text Input — stripped before prompting
 _ANSWER_SUFFIX = "Answer with a numerical value and nothing else: Yes (1) or No (2)"
 
+TRIAL_FIELDS = [
+    "run", "position", "model", "dilemma_id", "foundation", "domain", "variant",
+    "raw_response", "endorsement", "likelihood", "confidence", "fully_valid",
+]
+
 SYSTEM_PROMPT = (
     "You are participating in a moral psychology study as the decision-maker. "
     "Read each scenario carefully and place yourself as the actor described. "
@@ -172,10 +177,31 @@ def build_prompt(dilemma, simple=False):
     )
 
 
+def _strip_think_tags(text):
+    """Remove <think>...</think> blocks emitted by reasoning models (e.g. DeepSeek R1)."""
+    import re
+    return re.sub(r"<think>.*?</think>", "", text, flags=re.DOTALL).strip()
+
+
+def _normalize_line(line):
+    """Strip markdown bold markers and numbered-list prefixes from a response line.
+
+    Handles formats like:
+      **Answer:** Yes        →  answer: yes
+      1. Answer: **Yes**     →  answer: yes
+      2. Likelihood: **5**   →  likelihood: 5
+    """
+    import re
+    line = re.sub(r"^\d+\.\s*", "", line.strip())   # remove "1. " prefix
+    line = line.replace("**", "")                    # remove bold markers
+    return line.strip()
+
+
 def parse_response(raw):
+    cleaned = _strip_think_tags(raw)
     endorsement = likelihood = confidence = None
-    for line in raw.strip().splitlines():
-        low = line.strip().lower()
+    for line in cleaned.strip().splitlines():
+        low = _normalize_line(line).lower()
         if low.startswith("answer:"):
             val = low.split(":", 1)[1].strip().rstrip(".,")
             if val in ("yes", "y"):  endorsement = "yes"
@@ -194,7 +220,7 @@ def parse_response(raw):
 
 
 def parse_response_simple(raw):
-    cleaned = raw.strip().lower().rstrip(".,!?;:")
+    cleaned = _strip_think_tags(raw).strip().lower().rstrip(".,!?;:")
     if "yes" in cleaned: return "yes"
     if "no"  in cleaned: return "no"
     return None
@@ -204,18 +230,18 @@ def parse_response_simple(raw):
 # API
 # ---------------------------------------------------------------------------
 
-def call_openrouter(model, message, api_key, temperature, system_prompt=SYSTEM_PROMPT, retries=3):
+def call_openrouter(model, message, api_key, temperature, system_prompt=SYSTEM_PROMPT, retries=3, max_tokens=150, timeout=120):
     headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
     payload = {
         "model":       model,
         "messages":    [{"role": "system", "content": system_prompt},
                         {"role": "user",   "content": message}],
         "temperature": temperature,
-        "max_tokens":  50,
+        "max_tokens":  max_tokens,
     }
     for attempt in range(1, retries + 1):
         try:
-            r = requests.post(OPENROUTER_CHAT, headers=headers, json=payload, timeout=60)
+            r = requests.post(OPENROUTER_CHAT, headers=headers, json=payload, timeout=timeout)
             r.raise_for_status()
             return r.json()["choices"][0]["message"]["content"]
         except requests.exceptions.HTTPError as e:
@@ -253,7 +279,7 @@ def _fmt_duration(seconds):
     return f"{s}s"
 
 
-def run_experiment(ordered, model, api_key, n_runs, temperature, delay, simple=False):
+def run_experiment(ordered, model, api_key, n_runs, temperature, delay, simple=False, max_tokens=150, timeout=120, trial_writer=None, trial_fh=None):
     system_prompt = SYSTEM_PROMPT_SIMPLE if simple else SYSTEM_PROMPT
     trials    = []
     total     = len(ordered) * n_runs
@@ -272,7 +298,8 @@ def run_experiment(ordered, model, api_key, n_runs, temperature, delay, simple=F
                 log.info(f"  Call {call_n}/{total} | {d['dilemma_id']}")
             try:
                 raw = call_openrouter(
-                    model, build_prompt(d, simple), api_key, temperature, system_prompt
+                    model, build_prompt(d, simple), api_key, temperature, system_prompt,
+                    max_tokens=max_tokens, timeout=timeout
                 )
                 if simple:
                     endorsement = parse_response_simple(raw)
@@ -292,7 +319,7 @@ def run_experiment(ordered, model, api_key, n_runs, temperature, delay, simple=F
             if not valid:
                 log.warning(f"  Incomplete response {d['dilemma_id']} run {run_i}: '{raw[:100]}'")
 
-            trials.append({
+            row = {
                 "run":          run_i,
                 "position":     pos,
                 "model":        model,
@@ -305,7 +332,12 @@ def run_experiment(ordered, model, api_key, n_runs, temperature, delay, simple=F
                 "likelihood":   likelihood,
                 "confidence":   confidence,
                 "fully_valid":  valid,
-            })
+            }
+            trials.append(row)
+            if trial_writer:
+                trial_writer.writerow(row)
+                if trial_fh:
+                    trial_fh.flush()
             if delay > 0:
                 time.sleep(delay)
     return trials
@@ -442,6 +474,18 @@ def write_csv(rows, path):
     log.info(f"Written: '{path}'.")
 
 
+def append_csv(rows, path):
+    """Append rows to a CSV, writing the header only if the file is new/empty."""
+    if not rows: return
+    is_new = not os.path.isfile(path) or os.path.getsize(path) == 0
+    with open(path, "a", newline="", encoding="utf-8") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
+        if is_new:
+            w.writeheader()
+        w.writerows(rows)
+    log.info(f"Appended: '{path}'.")
+
+
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
@@ -456,7 +500,7 @@ def main():
                    help="Path to dilemmas CSV (new or old format).")
     p.add_argument("--runs",        "-r", type=int,   default=5,
                    help="Runs per dilemma. Use 5 for testing, 30–50 for full collection.")
-    p.add_argument("--temperature", "-t", type=float, default=0.9)
+    p.add_argument("--temperature", "-t", type=float, default=1.0)
     p.add_argument("--output",      "-o", default="results/results",
                    help="Output prefix for _trials, _stats, _summary CSVs.")
     p.add_argument("--seed",              type=int,   default=42,
@@ -465,6 +509,10 @@ def main():
                    help="OpenRouter API key (or set OPENROUTER_API_KEY env var).")
     p.add_argument("--delay",             type=float, default=0.25,
                    help="Seconds between API calls.")
+    p.add_argument("--max-tokens",        type=int,   default=150,
+                   help="Max tokens in model response. Use 3000+ for reasoning models (DeepSeek R1, o1, etc.).")
+    p.add_argument("--timeout",           type=int,   default=120,
+                   help="Per-request HTTP timeout in seconds. Use 300+ for slow reasoning models.")
     p.add_argument("--simple",      "-s", action="store_true",
                    help="Ask Yes/No only (no likelihood or confidence ratings).")
     p.add_argument("--list-models",       action="store_true",
@@ -488,39 +536,42 @@ def main():
 
     model_list = [m.strip() for m in args.models.split(",")] if args.models else [args.model]
 
-    wall_start = time.time()
-    dilemmas = load_dilemmas(args.dilemmas)
-    ordered  = make_order(dilemmas, args.seed)
+    wall_start  = time.time()
+    dilemmas    = load_dilemmas(args.dilemmas)
+    ordered     = make_order(dilemmas, args.seed)
+    trials_path = f"{args.output}_trials.csv"
+    stats_path  = f"{args.output}_stats.csv"
+    summary_path= f"{args.output}_summary.csv"
 
-    all_trials  = []
-    all_stats   = []
-    all_summary = []
+    os.makedirs(os.path.dirname(trials_path) or ".", exist_ok=True)
 
-    for model in model_list:
-        log.info(
-            f"Starting | model={model} | runs={args.runs} | temp={args.temperature} | "
-            f"mode={'simple' if args.simple else 'full'} | total calls={len(dilemmas) * args.runs}"
-        )
-        trials  = run_experiment(ordered, model, api_key, args.runs, args.temperature, args.delay, args.simple)
-        stats   = compute_stats(trials)
-        summary = compute_summary(stats, model, args.runs)
+    with open(trials_path, "w", newline="", encoding="utf-8") as trial_fh:
+        trial_writer = csv.DictWriter(trial_fh, fieldnames=TRIAL_FIELDS)
+        trial_writer.writeheader()
+        log.info(f"Trials will be written live to '{trials_path}'.")
 
-        all_trials.extend(trials)
-        all_stats.extend(stats)
-        all_summary.extend(summary)
-
-        print_summary(stats, summary, model, args.runs, args.seed)
-
-        n_invalid = sum(1 for t in trials if not t["fully_valid"])
-        if n_invalid:
-            log.warning(
-                f"{n_invalid}/{len(trials)} ({100 * n_invalid / len(trials):.1f}%) "
-                "trials had incomplete responses."
+        for model in model_list:
+            log.info(
+                f"Starting | model={model} | runs={args.runs} | temp={args.temperature} | "
+                f"mode={'simple' if args.simple else 'full'} | total calls={len(dilemmas) * args.runs}"
             )
+            trials  = run_experiment(ordered, model, api_key, args.runs, args.temperature, args.delay, args.simple,
+                                     max_tokens=args.max_tokens, timeout=args.timeout,
+                                     trial_writer=trial_writer, trial_fh=trial_fh)
+            stats   = compute_stats(trials)
+            summary = compute_summary(stats, model, args.runs)
 
-    write_csv(all_trials,  f"{args.output}_trials.csv")
-    write_csv(all_stats,   f"{args.output}_stats.csv")
-    write_csv(all_summary, f"{args.output}_summary.csv")
+            append_csv(stats,   stats_path)
+            append_csv(summary, summary_path)
+
+            print_summary(stats, summary, model, args.runs, args.seed)
+
+            n_invalid = sum(1 for t in trials if not t["fully_valid"])
+            if n_invalid:
+                log.warning(
+                    f"{n_invalid}/{len(trials)} ({100 * n_invalid / len(trials):.1f}%) "
+                    "trials had incomplete responses."
+                )
 
     log.info(f"Done. Total time: {_fmt_duration(time.time() - wall_start)}")
 

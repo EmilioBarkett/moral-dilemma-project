@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+anthropic/claude-3.5-sonnet,foundation,authority,50,8,25.0,16.366341767699428,99.75,0.25,2.74,6.34,6.37,6.8625
+anthropic/claude-3.5-sonnet,foundation,care,50,7,28.571428571428573,18.442777839082936,76.28571428571429,15.032843861286628,2.9971428571428573,5.331428571428572,6.102857142857142,5.8914285714285715
+anthropic/claude-3.5-sonnet,foundation,fairness,50,8,0.75,0.7499999999999999,92.75,7.249999999999999,1.83,5.7375,6.625,5.6825
+anthropic/claude-3.5-sonnet,foundation,loyalty,50,8,0.0,0.0,87.5,12.5,1.7825,5.6425,6.2075,6.5
+anthropic/claude-3.5-sonnet,foundation,purity,50,7,74.25,16.219201583308593,100.0,0.0,4.76,6.659999999999999,6.67,6.857142857142857
+anthropic/claude-3.5-sonnet,overall,all,50,38,25.641025641025642,7.029481696951986,91.42105263157895,4.1314860777269296,2.8174358974358973,5.939473684210526,6.402564102564102,6.3578947368421055
