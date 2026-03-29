@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+openai/gpt-5,foundation,authority,50,0,nan,nan,100.0,0.0,nan,7.0,nan,7.0
+openai/gpt-5,foundation,care,50,0,0.0,nan,nan,nan,1.0,nan,7.0,nan
+openai/gpt-5,foundation,fairness,50,0,0.0,0.0,nan,nan,1.0,nan,7.0,nan
+openai/gpt-5,foundation,loyalty,50,0,nan,nan,100.0,nan,nan,7.0,nan,7.0
+openai/gpt-5,foundation,purity,50,0,nan,nan,nan,nan,nan,nan,nan,nan
+openai/gpt-5,overall,all,50,3,0.0,0.0,100.0,0.0,1.0,7.0,7.0,7.0

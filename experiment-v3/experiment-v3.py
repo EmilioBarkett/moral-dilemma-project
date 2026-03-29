@@ -203,17 +203,17 @@ def parse_response(raw):
     for line in cleaned.strip().splitlines():
         low = _normalize_line(line).lower()
         if low.startswith("answer:"):
-            val = low.split(":", 1)[1].strip().rstrip(".,")
+            val = low.split(":", 1)[1].strip().strip("[]").rstrip(".,")
             if val in ("yes", "y"):  endorsement = "yes"
             elif val in ("no", "n"): endorsement = "no"
         elif low.startswith("likelihood:"):
             try:
-                n = int(low.split(":", 1)[1].strip())
+                n = int(low.split(":", 1)[1].strip().strip("[]"))
                 if 1 <= n <= 7: likelihood = n
             except ValueError: pass
         elif low.startswith("confidence:"):
             try:
-                n = int(low.split(":", 1)[1].strip())
+                n = int(low.split(":", 1)[1].strip().strip("[]"))
                 if 1 <= n <= 7: confidence = n
             except ValueError: pass
     return endorsement, likelihood, confidence
@@ -243,7 +243,15 @@ def call_openrouter(model, message, api_key, temperature, system_prompt=SYSTEM_P
         try:
             r = requests.post(OPENROUTER_CHAT, headers=headers, json=payload, timeout=timeout)
             r.raise_for_status()
-            return r.json()["choices"][0]["message"]["content"]
+            msg     = r.json()["choices"][0]["message"]
+            content = msg.get("content")
+            if content is None:
+                refusal = msg.get("refusal")
+                if refusal:
+                    log.warning(f"Model refused: '{refusal[:80]}'")
+                    return f"REFUSAL: {refusal}"
+                return ""
+            return content
         except requests.exceptions.HTTPError as e:
             if e.response is not None and e.response.status_code in (400, 401, 403):
                 raise
