@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+openai/gpt-3.5-turbo,foundation,authority,50,8,40.75,15.770394958366042,100.0,0.0,3.512091836734694,6.931887755102041,6.079591836734694,6.824540816326531
+openai/gpt-3.5-turbo,foundation,care,50,8,32.75,15.137170428168819,47.25,17.944109658285402,3.955,4.3825,6.6825,6.6575
+openai/gpt-3.5-turbo,foundation,fairness,50,8,1.0,1.0,80.75,11.420141980603518,2.8075,5.3275,6.19,5.9675
+openai/gpt-3.5-turbo,foundation,loyalty,50,8,0.25,0.25,75.0,16.366341767699428,1.9025,5.125,6.1899999999999995,6.54
+openai/gpt-3.5-turbo,foundation,purity,50,8,42.0,16.59604083595155,100.0,0.0,3.0375,5.8825,5.8225,6.835
+openai/gpt-3.5-turbo,overall,all,50,40,23.35,6.013824884679446,80.6,5.964940303180981,3.042918367346939,5.529877551020408,6.192918367346939,6.564908163265306

@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+mistralai/mistral-large-2512,foundation,authority,50,8,25.0,16.366341767699428,100.0,0.0,2.5425,6.8725000000000005,6.5325,6.875
+mistralai/mistral-large-2512,foundation,care,50,8,37.5,18.298126367784995,50.0,18.89822365046136,2.59,3.2375,6.7275,6.7375
+mistralai/mistral-large-2512,foundation,fairness,50,8,12.5,12.5,84.5,12.36787312816095,1.6125,5.7075000000000005,6.8575,6.3
+mistralai/mistral-large-2512,foundation,loyalty,50,8,0.0,0.0,75.0,16.366341767699428,1.1475,4.9725,6.8625,6.8125
+mistralai/mistral-large-2512,foundation,purity,50,8,66.5,16.71504882262858,100.0,0.0,3.615,6.99,6.6825,6.99
+mistralai/mistral-large-2512,overall,all,50,40,28.3,7.11572833542637,81.9,6.065011044867022,2.3015,5.556,6.7325,6.743

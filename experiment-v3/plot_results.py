@@ -34,6 +34,7 @@ MODEL_LABELS = {
     "openai/gpt-4o":                        "GPT-4o",
     "openai/gpt-4o-mini":                   "GPT-4o-mini",
     "openai/gpt-5":                         "GPT-5",
+    "openai/gpt-5-chat":                    "GPT-5",
     "openai/o1":                            "o1",
     "openai/o3":                            "o3",
     # Anthropic
@@ -68,6 +69,9 @@ MODEL_LABELS = {
     # Other
     "upstage/solar-pro-3":                "Solar Pro 3",
     "cohere/command-a":                   "Command A",
+    "openai/gpt-3.5-turbo":              "GPT-3.5 Turbo",
+    "meta-llama/llama-3.2-3b-instruct":  "Llama 3.2 3B",
+    "meta-llama/llama-3.1-8b-instruct":  "Llama 3.1 8B",
 }
 
 # Which models use extended chain-of-thought reasoning

@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+meta-llama/llama-4-maverick,foundation,authority,50,8,25.0,16.366341767699428,100.0,0.0,2.6671938775510204,6.5075,5.7048469387755105,6.3100000000000005
+meta-llama/llama-4-maverick,foundation,care,50,8,29.75,15.862973509762554,59.25,17.622783548577107,2.3825,4.0024999999999995,5.7475000000000005,5.68
+meta-llama/llama-4-maverick,foundation,fairness,50,8,0.0,0.0,95.0,5.0,1.925,5.68,5.9875,4.9799999999999995
+meta-llama/llama-4-maverick,foundation,loyalty,50,8,10.25,10.25,75.25510204081633,16.200486029905537,2.1149999999999998,5.26515306122449,6.0174468085106385,5.94704081632653
+meta-llama/llama-4-maverick,foundation,purity,50,8,39.0,17.916472867168917,100.0,0.0,2.576413043478261,6.6675,5.952717391304348,6.4325
+meta-llama/llama-4-maverick,overall,all,50,40,20.8,6.239575922473232,85.90102040816326,5.306065267071029,2.333221384205856,5.624530612244898,5.882002227718099,5.869908163265306
