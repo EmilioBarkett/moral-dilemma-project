@@ -123,8 +123,8 @@ def _to_float(v):
 
 
 def load_summaries(folder):
-    pattern = os.path.join(folder, "*_summary.csv")
-    files   = sorted(glob.glob(pattern))
+    pattern = os.path.join(folder, "**", "*_summary.csv")
+    files   = sorted(glob.glob(pattern, recursive=True))
     if not files:
         raise FileNotFoundError(
             f"No *_summary.csv files found in '{folder}'. "

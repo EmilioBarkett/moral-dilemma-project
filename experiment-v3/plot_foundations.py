@@ -110,8 +110,8 @@ def load_data(folder):
       overall_order : list of model_ids sorted by overall gap desc
       data          : {model_id: {foundation: {cong_mean, cong_se, incong_mean, incong_se, label, reasoning}}}
     """
-    pattern = os.path.join(folder, "*_summary.csv")
-    files   = sorted(glob.glob(pattern))
+    pattern = os.path.join(folder, "**", "*_summary.csv")
+    files   = sorted(glob.glob(pattern, recursive=True))
     if not files:
         raise FileNotFoundError(f"No *_summary.csv files in '{folder}'.")
 
