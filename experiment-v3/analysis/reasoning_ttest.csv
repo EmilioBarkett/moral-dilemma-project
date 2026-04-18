@@ -1,0 +1,2 @@
+n_reasoning,n_nonreasoning,mean_gap_reasoning,mean_gap_nonreasoning,sd_gap_reasoning,sd_gap_nonreasoning,cohens_d,t_stat,p_value,df
+8,19,58.72717002955635,52.71077903252649,4.526207986755461,14.635147428343437,-0.5554161081524991,1.6175754559594782,0.1188607773741327,25

@@ -1,0 +1,119 @@
+
+======================================================================
+  1. DESCRIPTIVE TABLE — Gap, Congruent%, Incongruent% per Model
+======================================================================
+
+Model                          R     Cong%   Incong%     Gap    N
+------------------------------------------------------------
+  Claude 3.5 Sonnet                  25.64     91.42   65.78   50
+  Llama 4 Maverick                   20.80     85.90   65.10   50
+  o3                           Y     22.25     86.70   64.45   50
+  Gemini 2.5 Pro               Y     27.46     91.75   64.29   50
+  Mixtral 8x22B                      15.15     77.00   61.85   50
+  Grok 3                       Y     23.65     84.95   61.30   50
+  Grok 4                             21.90     82.10   60.20   50
+  DeepSeek R1                  Y     17.94     78.11   60.17   50
+  GPT-5                              24.95     84.80   59.85   50
+  Qwen3 235B                         17.49     76.55   59.06   50
+  Ernie 4.5                          19.40     76.85   57.45   50
+  DeepSeek R1-0528             Y     16.17     73.61   57.44   50
+  GPT-3.5 Turbo                      23.35     80.60   57.25   50
+  Gemma 3 27B                        22.25     78.90   56.65   50
+  o1                           Y     22.85     78.17   55.32   50
+  GPT-4o-mini                        20.00     75.25   55.25   10
+  Claude Opus 4                Y     17.95     72.26   54.31   50
+  Command A                          19.49     73.20   53.71   50
+  Mistral Large 3                    28.30     81.90   53.60   50
+  GPT-4o                             21.35     74.90   53.55   50
+  DeepSeek V3                        21.69     74.69   53.00   50
+  Qwen3 235B (Thinking)        Y     14.02     66.56   52.54   50
+  Nova Premier                       17.71     68.77   51.05   50
+  Phi-4                              24.68     73.97   49.29   50
+  Llama 3.3 70B                      32.39     78.77   46.38   50
+  Solar Pro 3                         9.12     54.82   45.70   50
+  Llama 3.2 3B                        3.23      0.00   -3.23   50
+------------------------------------------------------------
+  Human (C&G 2013)                   25.38     56.08   30.70    —
+
+======================================================================
+  2. HUMAN BASELINE COMPARISON
+======================================================================
+
+  Models tested (excl. Llama 3.2 3B capacity failure): 26
+  Models exceeding human gap (30.70 pp):  26 / 26 (100.00%)
+  Mean gap across all models:  56.71 pp  (SD = 5.45)
+  Mean excess over human baseline: +26.01 pp
+
+======================================================================
+  3. REASONING vs. NON-REASONING — Independent Samples t-test
+======================================================================
+
+  Non-reasoning models (n=19): M = 52.71 pp, SD = 14.64
+  Reasoning models    (n=8): M = 58.73 pp, SD = 4.53
+
+  Welch's t(25) = 1.618,  p = 0.1189
+  Cohen's d = -0.555  (non-reasoning minus reasoning)
+
+======================================================================
+  4. WITHIN-LAB REASONING CONTRASTS
+======================================================================
+
+  Lab          Non-reasoning                Reasoning                     NR Gap   R Gap       Δ  Direction
+  ----------------------------------------------------------------------------------------------------
+  Anthropic    Claude 3.5 Sonnet            Claude Opus 4                  65.78   54.31  -11.47  ↓ reduced
+  xAI          Grok 4                       Grok 3                         60.20   61.30   +1.10  ↑ increased
+  OpenAI       GPT-4o                       o1                             53.55   55.32   +1.77  ↑ increased
+  OpenAI       GPT-5                        o3                             59.85   64.45   +4.60  ↑ increased
+  DeepSeek     DeepSeek V3                  DeepSeek R1                    53.00   60.17   +7.17  ↑ increased
+  DeepSeek     DeepSeek V3                  DeepSeek R1-0528               53.00   57.44   +4.44  ↑ increased
+  Qwen         Qwen3 235B                   Qwen3 235B (Thinking)          59.06   52.54   -6.52  ↓ reduced
+  Google       Gemma 3 27B                  Gemini 2.5 Pro                 56.65   64.29   +7.64  ↑ increased
+
+======================================================================
+  5. FOUNDATION-LEVEL ANALYSIS
+======================================================================
+
+  Mean gap by moral foundation (all models pooled, excl. Llama 3.2 3B):
+
+  Foundation    Mean Gap      SD      SE     Min     Max
+  -------------------------------------------------------
+  Loyalty          76.05    8.90    1.75   53.18   96.25
+  Fairness         75.25   15.23    2.99   35.98   98.00
+  Authority        69.63    6.56    1.29   50.00   77.00
+  Purity           39.19   14.69    2.88   18.61   68.25
+  Care             23.26   13.49    2.65    3.75   53.43
+
+  One-way ANOVA (incongruent p_yes across foundations):
+  F(4, …) = nan,  p = nan
+
+  Per-model × foundation gap matrix:
+
+  Model                          R      Autho     Care    Fairn    Loyal    Purit
+  -------------------------------------------------------------------------------
+  Claude 3.5 Sonnet                     74.75    47.71    92.00    87.50    25.75
+  Llama 4 Maverick                      75.00    29.50    95.00    65.01    61.00
+  o3                             Y      70.25    48.75    90.25    86.50    26.50
+  Gemini 2.5 Pro                 Y      69.50    53.43    85.00    87.50    26.00
+  Mixtral 8x22B                         76.00    13.25    87.00    64.75    68.25
+  Grok 3                         Y      66.75    40.50    87.00    84.25    28.00
+  Grok 4                                75.00    43.50    74.75    84.25    23.50
+  DeepSeek R1                    Y      68.01    34.84    83.00    77.50    37.50
+  GPT-5                                 62.75    22.50    98.00    96.25    19.75
+  Qwen3 235B                            75.50    21.75    66.75    80.00    51.30
+  Ernie 4.5                             75.00    23.00    64.75    75.00    49.50
+  DeepSeek R1-0528               Y      72.25    17.52    72.72    74.23    50.48
+  GPT-3.5 Turbo                         59.25    14.50    79.75    74.75    58.00
+  Gemma 3 27B                           59.50    19.00    88.00    75.00    41.75
+  o1                             Y      75.00    24.50    82.50    76.00    18.61
+  GPT-4o-mini                           62.50     3.75    80.00    75.00    55.00
+  Claude Opus 4                  Y      70.00    12.50    69.75    75.00    42.86
+  Mistral Large 3                       75.00    12.50    72.00    75.00    33.50
+  Command A                             77.00    22.51    51.23    75.00    42.18
+  GPT-4o                                73.75    12.50    80.25    75.00    26.25
+  DeepSeek V3                           66.07    16.43    74.77    75.00    32.75
+  Qwen3 235B (Thinking)          Y      72.07    16.15    42.77    76.33    55.40
+  Nova Premier                          68.25    19.16    59.72    74.23    32.17
+  Phi-4                                 74.00    15.95    70.24    59.96    26.31
+  Llama 3.3 70B                         50.00     7.67    73.44    75.00    25.82
+  Solar Pro 3                           67.17    11.29    35.98    53.18    60.85
+  Llama 3.2 3B                           0.00      nan     0.00     0.00   -12.50
