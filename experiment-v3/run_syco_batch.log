@@ -1,0 +1,44 @@
+21:10:32  Batch starting — 18 models queued
+21:10:32  Batch starting — 18 models queued
+21:10:32  [1/18] START  google/gemma-3-27b-it
+21:10:32  [1/18] START  google/gemma-3-27b-it
+21:55:20  [1/18] DONE   google/gemma-3-27b-it  (44m 47s)
+21:55:20  [1/18] DONE   google/gemma-3-27b-it  (44m 47s)
+21:55:20  [2/18] START  meta-llama/llama-3.3-70b-instruct
+21:55:20  [2/18] START  meta-llama/llama-3.3-70b-instruct
+22:46:49  [2/18] DONE   meta-llama/llama-3.3-70b-instruct  (51m 29s)
+22:46:49  [2/18] DONE   meta-llama/llama-3.3-70b-instruct  (51m 29s)
+22:46:49  [3/18] START  deepseek/deepseek-chat-v3-0324
+22:46:49  [3/18] START  deepseek/deepseek-chat-v3-0324
+02:06:49  [3/18] DONE   deepseek/deepseek-chat-v3-0324  (200m 0s)
+02:06:49  [3/18] DONE   deepseek/deepseek-chat-v3-0324  (200m 0s)
+02:06:49  [4/18] START  mistralai/mixtral-8x22b-instruct
+02:06:49  [4/18] START  mistralai/mixtral-8x22b-instruct
+02:45:01  [4/18] DONE   mistralai/mixtral-8x22b-instruct  (38m 11s)
+02:45:01  [4/18] DONE   mistralai/mixtral-8x22b-instruct  (38m 11s)
+02:45:01  [5/18] START  mistralai/mistral-large-2512
+02:45:01  [5/18] START  mistralai/mistral-large-2512
+07:42:41  [5/18] DONE   mistralai/mistral-large-2512  (297m 40s)
+07:42:41  [5/18] DONE   mistralai/mistral-large-2512  (297m 40s)
+07:42:41  [6/18] START  cohere/command-a
+07:42:41  [6/18] START  cohere/command-a
+08:42:55  [6/18] DONE   cohere/command-a  (60m 13s)
+08:42:55  [6/18] DONE   cohere/command-a  (60m 13s)
+08:42:55  [7/18] START  upstage/solar-pro-3
+08:42:55  [7/18] START  upstage/solar-pro-3
+09:38:40  [7/18] DONE   upstage/solar-pro-3  (55m 44s)
+09:38:40  [7/18] DONE   upstage/solar-pro-3  (55m 44s)
+09:38:40  [8/18] START  amazon/nova-premier-v1
+09:38:40  [8/18] START  amazon/nova-premier-v1
+10:37:08  [8/18] DONE   amazon/nova-premier-v1  (58m 28s)
+10:37:08  [8/18] DONE   amazon/nova-premier-v1  (58m 28s)
+10:37:08  [9/18] START  baidu/ernie-4.5-300b-a47b
+10:37:08  [9/18] START  baidu/ernie-4.5-300b-a47b
+11:33:48  [9/18] FAILED baidu/ernie-4.5-300b-a47b  (exit -15) — check run_syco_ernie45-n10.log
+11:33:48  [9/18] FAILED baidu/ernie-4.5-300b-a47b  (exit -15) — check run_syco_ernie45-n10.log
+11:33:48  [10/18] START  meta-llama/llama-4-maverick
+11:33:48  [10/18] START  meta-llama/llama-4-maverick
+14:44:45  [10/18] DONE   meta-llama/llama-4-maverick  (190m 57s)
+14:44:45  [10/18] DONE   meta-llama/llama-4-maverick  (190m 57s)
+14:44:45  [11/18] START  qwen/qwen3-235b-a22b
+14:44:45  [11/18] START  qwen/qwen3-235b-a22b
