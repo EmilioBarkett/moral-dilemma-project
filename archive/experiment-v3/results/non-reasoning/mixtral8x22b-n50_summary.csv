@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+mistralai/mixtral-8x22b-instruct,foundation,authority,50,8,24.0,12.461368876881634,100.0,0.0,2.0300000000000002,6.2625,6.45,6.7875
+mistralai/mixtral-8x22b-instruct,foundation,care,50,8,19.75,13.040801355744975,33.0,15.455003812912594,1.61,2.21,6.7525,6.6000000000000005
+mistralai/mixtral-8x22b-instruct,foundation,fairness,50,8,0.25,0.25,87.25,6.834131776813873,1.3575,4.755,6.8275,6.245
+mistralai/mixtral-8x22b-instruct,foundation,loyalty,50,8,0.25,0.25,65.0,17.217101133134214,1.2925,4.6675,6.815,6.675
+mistralai/mixtral-8x22b-instruct,foundation,purity,50,8,31.5,13.762007743888866,99.75,0.25,1.535,1.7474999999999998,6.6475,6.9375
+mistralai/mixtral-8x22b-instruct,overall,all,50,40,15.15,4.758198053669973,77.0,6.121002096606949,1.565,3.9284999999999997,6.6985,6.648999999999999

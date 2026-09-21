@@ -1,0 +1,11 @@
+dilemma_id,dilemma_name,p_inapp_congruent,p_inapp_incongruent,U,D,n_valid_congruent,n_valid_incongruent,U_valid,D_valid,notes
+abortion,Abortion,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+animal_research,Animal Research,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+border_crossing,Border Crossing,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+car_accident,Car Accident,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+crying_baby,Crying Baby,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+hard_times,Hard Times,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+relationship,Relationship,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+time_machine,Time Machine,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+torture,Torture,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.
+vaccine_policy,Vaccine Policy,nan,nan,nan,nan,0,0,False,False,Insufficient valid responses.

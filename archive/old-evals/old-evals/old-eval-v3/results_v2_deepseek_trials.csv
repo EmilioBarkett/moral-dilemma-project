@@ -1,0 +1,1863 @@
+run,position,dilemma_id,dilemma_name,variant,raw_response,endorsement,likelihood,confidence,fully_valid
+1,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+1,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+1,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+1,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+1,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+1,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+1,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+1,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,14,abortion,Abortion,congruent,"1. **Answer:** Yes  
+2. **Likelihood:** 6  
+3. **Confidence:** 7  
+
+**Explanation:**  
+In",,,,False
+1,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 5",no,2,5,True
+1,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: While the utilitarian argument (preventing immense future suffering) might",no,1,7,True
+1,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+2,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7  
+
+(Justification: Administering the drug saves the majority, even",yes,6,7,True
+2,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+2,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 6",yes,1,6,True
+2,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+2,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+2,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+2,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 6",yes,7,6,True
+2,13,time_machine,Time Machine,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+2,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+2,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  
+
+(Explanation: While saving the young mother and child is morally compelling,",no,2,6,True
+2,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+2,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+2,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: Shooting an unarmed civilian based solely on suspicion is a gross",no,1,7,True
+3,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,3,vaccine_policy,Vaccine Policy,incongruent,"1. **Answer:** Yes  
+2. **Likelihood:** 6  
+3. **Confidence:** 7  
+
+**Explanation:**  
+-",,,,False
+3,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,6,torture,Torture,congruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+3,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+3,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+3,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,10,torture,Torture,incongruent,"Answer: No  
+Likelihood: 4  
+Confidence: 6",no,4,6,True
+3,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+3,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+3,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+3,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+3,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+4,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+4,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+4,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,10,torture,Torture,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,11,animal_research,Animal Research,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+4,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+4,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,14,abortion,Abortion,congruent,"Answer: [Yes]  
+Likelihood: [7]  
+Confidence: [7]  
+
+Explanation: The scenario presents a complex moral dilemma where",,,,False
+4,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 6
+Confidence: 7",no,6,7,True
+4,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+4,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7  
+
+Explanation: Administering the drug saves the majority of patients, which",yes,6,7,True
+5,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+5,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+5,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+5,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+5,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+5,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+5,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+5,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+5,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+5,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 7",no,2,7,True
+5,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 6  
+Confidence: 7",no,6,7,True
+6,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+(Justification: Shooting an unarmed individual suspected of illegal border crossing",no,1,7,True
+6,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+6,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+6,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 5",yes,3,5,True
+6,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+6,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+6,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 6",yes,6,6,True
+6,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+6,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  
+
+Explanation: In this scenario, the young woman faces significant socioeconomic hardships that",yes,5,6,True
+6,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,17,crying_baby,Crying Baby,congruent,"Answer pheasant : [No]
+Likelihood: [1]
+Confidence: [7]",,,,False
+6,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+6,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,3,vaccine_policy,Vaccine Policy,incongruent,"**Answer:** Yes  
+**Likelihood:** 6  
+**Confidence:** 7  
+
+*(Rationale: Administering the drug saves the",,,,False
+7,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: The scenario presents a deeply unethical and exploitative situation. Employ",no,1,7,True
+7,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,6,torture,Torture,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+7,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+7,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+7,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+7,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+7,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  
+
+(Note: This response is hypothetical and reflects a structured moral reasoning exercise",yes,5,6,True
+7,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+7,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+7,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,5,relationship,Relationship,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+8,6,torture,Torture,congruent,"Answer: Yes
+Likelihood: 6
+Confidence: 5",yes,6,5,True
+8,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+8,8,border_crossing,Border Crossing,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+8,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+8,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+8,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,14,abortion,Abortion,congruent,"1. **Answer:** Yes  
+2. **Likelihood:** 6  
+3. **Confidence:** 5  
+
+Rationale: In this",,,,False
+8,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+8,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+9,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,6,torture,Torture,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+9,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+9,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+9,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+9,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+9,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+9,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+9,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: While the utilitarian argument (preventing immense future suffering) might",no,1,7,True
+9,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+10,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,5,relationship,Relationship,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+10,6,torture,Torture,congruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+10,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7  
+
+Explanation:  
+1. **Answer (Yes)**: Administering",yes,6,7,True
+10,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+10,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+10,11,animal_research,Animal Research,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+10,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+10,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+10,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+10,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+10,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,19,time_machine,Time Machine,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+10,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+11,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+11,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+11,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+11,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+11,5,relationship,Relationship,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+11,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+11,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+11,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+11,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+11,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 5",yes,7,5,True
+11,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+11,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 1
+Confidence: 7",yes,1,7,True
+11,13,time_machine,Time Machine,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+11,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+11,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+11,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+11,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: Smothering an innocent child to save oneself and others is",no,1,7,True
+11,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 6",no,7,6,True
+11,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+11,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+12,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+12,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+12,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+12,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+12,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+12,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+12,11,animal_research,Animal Research,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  
+
+Explanation:  
+1. **Answer: Yes** – While animal testing",yes,5,6,True
+12,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+12,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7  
+
+(Note: This response reflects a utilitarian perspective prioritizing the mother's well",yes,6,7,True
+12,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+12,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+12,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+12,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+12,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood:。...
+
+Wait, I need to answer all three questions properly. Here's the correct format:
+
+Answer: No
+Lik",no,,,False
+13,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+13,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+13,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+13,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+13,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+13,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+13,13,time_machine,Time Machine,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+13,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+13,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+13,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 7",no,2,7,True
+13,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+13,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 6
+Confidence: 7",no,6,7,True
+14,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+14,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+14,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+14,9,crying_baby,Crying Baby,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+14,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+14,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+14,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+14,13,time_machine,Time Machine,congruent,"Answer amazNo  
+Likelihood: 1  
+Confidence: 7",,1,7,False
+14,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+14,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+14,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+14,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+14,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+15,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+15,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,6,torture,Torture,congruent,"Answer: No  
+Likelihood: styleUrls  
+Confidence: 7",no,,7,False
+15,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+15,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+15,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+15,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+15,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+15,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+15,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+15,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+15,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+15,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+15,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 7
+Confidence: 6",no,7,6,True
+16,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+16,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+16,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+16,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+16,5,relationship,Relationship,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+16,6,torture,Torture,congruent,"Answer: Yes
+Likelihood: 6
+Confidence: 5",yes,6,5,True
+16,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+16,8,border_crossing,Border Crossing,incongruent,"Answer: Yes
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+16,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+16,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 6",yes,6,6,True
+16,11,animal_research,Animal Research,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 5",yes,3,5,True
+16,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+16,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+16,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+16,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 3
+Confidence: 5",no,3,5,True
+16,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+16,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+16,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+16,19,time_machine,Time Machine,incongruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+16,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+17,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,6,torture,Torture,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+17,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+17,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+17,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+17,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+17,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+17,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+17,15,car_accident,Car Accident,incongruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+17,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+17,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 7",no,7,7,True
+17,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+17,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+18,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+18,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+18,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+18,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+18,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+18,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+18,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+18,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+18,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+18,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 5",yes,6,5,True
+18,11,animal_research,Animal Research,congruent,"Answer: No
+Likelihood: 6
+Confidence: 5",no,6,5,True
+18,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+18,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+18,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+18,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+18,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+18,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+18,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 7",no,7,7,True
+18,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+18,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+19,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,5,relationship,Relationship,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+19,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+19,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+19,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+19,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+19,11,animal_research,Animal Research,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+19,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+19,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+19,15,car_accident,Car Accident,incongruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+19,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+19,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+19,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+19,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+19,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 7  
+Confidence: 6",no,7,6,True
+20,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+20,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+20,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+20,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+20,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+20,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+20,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+20,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+20,9,crying_baby,Crying Baby,incongruent,"1. Answer: No  
+2. Likelihood: 1  
+3. Confidence: 7  
+
+Explanation: While the scenario presents an extreme and",,,,False
+20,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+20,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 6  
+Confidence: 5",no,6,5,True
+20,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+20,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+20,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+20,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 7
+Confidence: 7",no,7,7,True
+20,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+20,17,crying_baby,Crying Baby,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+20,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 6  
+Confidence: 7",no,6,7,True
+20,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+20,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 7
+Confidence: 7",no,7,7,True
+21,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+21,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+21,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+21,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+21,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+21,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+21,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+21,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+21,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+21,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+21,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+21,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+21,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+21,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+21,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+21,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+21,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+21,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+21,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+21,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+22,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: Shooting and killing an unarmed individual based solely on suspicion of",no,1,7,True
+22,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+22,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+22,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+22,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence能力强，是国内最早一批从事人工智能的研究者之一。他在AI领域有着深厚的理论功底",no,1,,False
+22,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+22,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+22,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+22,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+22,10,torture,Torture,incongruent,"Answer: Yes
+Likelihood: 5
+Confidence: 6",yes,5,6,True
+22,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+22,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+22,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+22,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+22,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+22,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+22,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+22,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 7",no,2,7,True
+22,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+22,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+23,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+23,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+23,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+23,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7  
+
+(Justification: If the soldier reasonably believes the approaching man poses an imminent threat to their lives and the lives of others at the checkpoint, lethal force may be justified as an act of self-defense or defense of others. The high likelihood reflects the perceived urgency of the threat, and the high confidence indicates strong conviction in the necessity of the action under these circumstances.)",yes,6,7,True
+23,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+23,11,animal_research,Animal Research,congruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+23,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+23,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+23,15,car_accident,Car Accident,incongruent,"1. **Answer:** No  
+2. **Likelihood:** 2 (Unlikely to swerve into the old lady)  
+3. **",,,,False
+23,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+23,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+23,19,time_machine,Time Machine,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+23,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 7  
+Confidence: 7",no,7,7,True
+24,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+24,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+24,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+24,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+24,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+Explanation: This scenario presents an extreme moral dilemma where the choice involves sacrificing",no,1,7,True
+24,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+24,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+24,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+24,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 4
+Confidence: 6",yes,4,6,True
+24,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+24,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+24,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 6  
+Confidence: 7",no,6,7,True
+24,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+24,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+25,4,hard_times,Hard Times,incongruent,"Answer朱No
+Likelihood: 1
+Confidence: 7",,1,7,False
+25,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+25,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+25,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence:니까7",no,1,,False
+25,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+25,11,animal_research,Animal Research,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 5",yes,3,5,True
+25,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+25,13,time_machine,Time Machine,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+25,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+25,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6GCUCAnswer: No
+Likelihood: 2
+Confidence:",no,2,,False
+25,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+25,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+25,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+25,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+26,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,6,torture,Torture,congruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+26,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+26,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+26,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+26,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+26,12,abortion,Abortion,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+26,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,14,abortion,Abortion,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+26,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 6",no,2,6,True
+26,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 6",yes,1,6,True
+26,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+26,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+26,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+27,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+27,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+27,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+27,9,crying_baby,Crying Baby,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+27,10,torture,Torture,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+27,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+27,12,abortion,Abortion,incongruent,"Answer疆 Yes
+Likelihood: 7
+Confidence: 7",,7,7,False
+27,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+27,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+27,15,car_accident,Car Accident,incongruent,"AnsweringlesAnswer: No
+Likelihood: 2
+Conf royaltyence: 6",,2,,False
+27,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+27,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+27,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+28,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,5,relationship,Relationship,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+28,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+28,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+28,8,border_crossing,Border Crossing,incongruent,"**Answer:** Yes  
+**Likelihood:** 6  
+**Confidence:** 5  
+
+### Reasoning:  
+1. **Answer (Yes):",,,,False
+28,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+28,11,animal_research,Animal Research,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+28,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 6
+Confidence: 7",yes,6,7,True
+28,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+28,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+28,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+28,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+28,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 7",no,7,7,True
+28,19,time_machine,Time Machine,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+28,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+29,1,border_crossing,Border Crossing,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+29,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+29,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+29,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 3
+Confidence: 6",yes,3,6,True
+29,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+29,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+29,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 6  
+Confidence: 7",no,6,7,True
+29,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+29,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+29,15,car_accident,Car Accident,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+29,16,animal_research,Animal Research,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+29,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+29,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+29,20,car_accident,Car Accident,congruent,"Answer: No
+Likelihood: 1
+Confidence: 7",no,1,7,True
+30,1,border_crossing,Border Crossing,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+30,2,hard_times,Hard Times,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+30,3,vaccine_policy,Vaccine Policy,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+30,4,hard_times,Hard Times,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+30,5,relationship,Relationship,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  
+
+### Explanation:  
+1. **Answer: No** - It is",no,1,7,True
+30,6,torture,Torture,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+30,7,vaccine_policy,Vaccine Policy,congruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+30,8,border_crossing,Border Crossing,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+30,9,crying_baby,Crying Baby,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+30,10,torture,Torture,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+30,11,animal_research,Animal Research,congruent,"Answer: No  
+Likelihood: 6  
+Confidence: 7",no,6,7,True
+30,12,abortion,Abortion,incongruent,"Answer: Yes
+Likelihood: 7
+Confidence: 7",yes,7,7,True
+30,13,time_machine,Time Machine,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+30,14,abortion,Abortion,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+30,15,car_accident,Car Accident,incongruent,"Answer: No
+Likelihood: 1
+Confidence: 6",no,1,6,True
+30,16,animal_research,Animal Research,incongruent,"Answer: Yes
+Likelihood: 2
+Confidence: 6",yes,2,6,True
+30,17,crying_baby,Crying Baby,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+30,18,relationship,Relationship,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+30,19,time_machine,Time Machine,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+30,20,car_accident,Car Accident,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True

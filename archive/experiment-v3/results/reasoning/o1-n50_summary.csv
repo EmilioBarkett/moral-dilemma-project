@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+openai/o1,foundation,authority,50,8,25.0,16.366341767699428,100.0,0.0,2.8275,6.8725000000000005,6.66,6.9775
+openai/o1,foundation,care,50,8,13.25,12.415068609211492,37.75,14.94483905185045,1.855,2.9751041666666667,6.78,6.475
+openai/o1,foundation,fairness,50,8,1.5,1.4999999999999998,84.0,11.856282240712243,1.69,5.5025,6.745,6.4
+openai/o1,foundation,loyalty,50,8,0.0,0.0,76.0,15.729862409715203,1.5675,5.8075,6.827500000000001,6.785
+openai/o1,foundation,purity,50,8,74.5,16.264553922125078,93.11224489795919,6.887755102040816,3.5325,6.528418367346939,6.7725,6.900510204081632
+openai/o1,overall,all,50,40,22.85,6.627018318585803,78.17244897959183,5.984518250655198,2.2945,5.537204506802722,6.757000000000001,6.707602040816326

@@ -1,0 +1,2401 @@
+run,position,model,dilemma_id,foundation,domain,variant,raw_response,endorsement,likelihood,confidence,fully_valid
+1,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+1,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+1,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+1,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+1,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+1,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+1,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+1,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+1,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+1,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+1,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 6",no,7,6,True
+1,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+1,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+1,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+1,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+1,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6  ",yes,6,6,True
+1,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+1,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+1,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+1,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+1,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+1,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+1,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 2",no,1,2,True
+1,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+1,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+1,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6  ",no,3,6,True
+1,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+1,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+1,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+1,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+1,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+1,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+1,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+1,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+1,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+1,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+1,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+1,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+1,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+1,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+1,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+1,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+1,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6  ",yes,3,6,True
+1,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+1,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+1,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+1,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+1,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+1,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+1,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+2,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+2,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+2,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+2,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+2,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+2,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 5",yes,2,5,True
+2,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+2,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+2,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+2,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+2,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+2,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5  ",no,1,5,True
+2,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+2,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+2,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+2,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+2,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+2,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+2,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+2,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+2,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+2,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+2,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+2,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+2,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+2,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+2,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+2,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+2,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+2,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+2,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+2,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6  ",yes,6,6,True
+2,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+2,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+2,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+2,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+2,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+2,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+2,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+2,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 5",yes,2,5,True
+2,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+2,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+2,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+2,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+2,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+2,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+2,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+2,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5  ",yes,3,5,True
+2,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+2,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+2,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+2,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+3,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+3,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+3,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+3,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+3,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5",yes,4,5,True
+3,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+3,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+3,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+3,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+3,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+3,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 4  
+Confidence: 5",no,4,5,True
+3,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 6",no,7,6,True
+3,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 6",yes,1,6,True
+3,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+3,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+3,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+3,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+3,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+3,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+3,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+3,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+3,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 3  ",no,1,3,True
+3,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+3,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+3,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 7",yes,2,7,True
+3,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+3,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+3,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+3,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+3,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+3,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+3,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+3,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+3,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+3,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6  ",yes,3,6,True
+3,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+3,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+3,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+3,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+3,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+3,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+3,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+3,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+3,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5  ",yes,3,5,True
+3,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+3,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+3,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+3,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+4,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+4,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 5",yes,2,5,True
+4,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+4,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5",yes,4,5,True
+4,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+4,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+4,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+4,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+4,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+4,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 4  
+Confidence: 5",no,4,5,True
+4,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+4,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 2  ",no,1,2,True
+4,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+4,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 6",yes,1,6,True
+4,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+4,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+4,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+4,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+4,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+4,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+4,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+4,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+4,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+4,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+4,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5  ",no,1,5,True
+4,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6  ",yes,3,6,True
+4,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+4,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+4,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+4,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+4,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+4,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+4,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+4,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+4,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+4,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+4,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+4,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+4,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+4,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+4,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+4,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+4,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+4,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+4,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6  ",yes,3,6,True
+4,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+4,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+4,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+4,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+4,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+4,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+4,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+5,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+5,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+5,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+5,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+5,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+5,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+5,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 4",no,5,4,True
+5,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5  ",no,1,5,True
+5,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+5,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+5,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+5,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+5,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+5,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+5,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+5,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+5,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 2  ",no,1,2,True
+5,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+5,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+5,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+5,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+5,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+5,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+5,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+5,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+5,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+5,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+5,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+5,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 5",yes,2,5,True
+5,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+5,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+5,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+5,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+5,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+5,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+5,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+5,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6  ",no,5,6,True
+5,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+5,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+5,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+5,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+6,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+6,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+6,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+6,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 6",yes,7,6,True
+6,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 4  ",no,5,4,True
+6,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+6,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 4  ",no,2,4,True
+6,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+6,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+6,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+6,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+6,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+6,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+6,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+6,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+6,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+6,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5  ",no,1,5,True
+6,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+6,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+6,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+6,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+6,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+6,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+6,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+6,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+6,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6  ",no,3,6,True
+6,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+6,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+6,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+6,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+6,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5",yes,4,5,True
+6,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+6,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+6,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+6,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+6,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+6,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+6,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7  ",yes,6,7,True
+6,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+6,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+6,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+6,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5  ",yes,3,5,True
+6,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+6,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+6,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+6,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+7,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+7,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+7,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5  ",yes,4,5,True
+7,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 7",yes,7,7,True
+7,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5",yes,4,5,True
+7,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+7,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+7,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+7,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+7,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+7,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5",no,1,5,True
+7,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+7,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+7,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+7,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+7,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+7,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+7,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+7,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+7,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+7,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+7,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+7,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5  ",no,1,5,True
+7,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+7,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+7,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+7,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+7,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 4  
+Confidence: 5",no,4,5,True
+7,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+7,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+7,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+7,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+7,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+7,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+7,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+7,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+7,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+7,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 6",yes,1,6,True
+7,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+7,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+7,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+7,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+7,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+7,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+7,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+7,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+7,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+7,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+7,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+7,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+7,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+8,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+8,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+8,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5",yes,4,5,True
+8,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+8,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5  ",yes,3,5,True
+8,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+8,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+8,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 5  
+Confidence: 4",no,5,4,True
+8,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 4",no,5,4,True
+8,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5  ",no,1,5,True
+8,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+8,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+8,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+8,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+8,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+8,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+8,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+8,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+8,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+8,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+8,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+8,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 7  
+Confidence: 5",no,7,5,True
+8,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+8,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+8,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+8,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+8,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+8,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+8,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+8,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+8,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+8,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+8,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+8,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+8,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+8,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+8,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6  ",yes,3,6,True
+8,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+8,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5  ",yes,3,5,True
+8,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+8,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+8,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+8,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6  ",yes,6,6,True
+8,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+8,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+8,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5  ",yes,3,5,True
+8,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+8,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: Yes  
+Likelihood: 7  
+Confidence: 5  ",yes,7,5,True
+8,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+8,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+9,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+9,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+9,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+9,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+9,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 5",yes,4,5,True
+9,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+9,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+9,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5  ",no,3,5,True
+9,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 5  
+Confidence: 6",no,5,6,True
+9,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 5",no,7,5,True
+9,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 6  ",yes,1,6,True
+9,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+9,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+9,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+9,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+9,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+9,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+9,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7",yes,1,7,True
+9,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+9,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+9,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 5",no,1,5,True
+9,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+9,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+9,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6",no,3,6,True
+9,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+9,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5  ",no,2,5,True
+9,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+9,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+9,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+9,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+9,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+9,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+9,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 1  
+Confidence: 7  ",yes,1,7,True
+9,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+9,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+9,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+9,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+9,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+9,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+9,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+9,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+9,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+9,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+9,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+9,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6",no,1,6,True
+9,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+9,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+9,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,1,openai/gpt-4o-mini,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,2,openai/gpt-4o-mini,loyalty_transport_inc,loyalty,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,3,openai/gpt-4o-mini,care_medical_inc,care,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,4,openai/gpt-4o-mini,loyalty_historical_con,loyalty,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,5,openai/gpt-4o-mini,care_transport_con,care,transport,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 6  ",no,1,6,True
+10,6,openai/gpt-4o-mini,loyalty_medical_inc,loyalty,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 5",yes,2,5,True
+10,7,openai/gpt-4o-mini,authority_military_con,authority,military,congruent,"Answer: Yes  
+Likelihood: 4  
+Confidence: 6",yes,4,6,True
+10,8,openai/gpt-4o-mini,fairness_transport_con,fairness,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,9,openai/gpt-4o-mini,loyalty_military_inc,loyalty,military,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+10,10,openai/gpt-4o-mini,fairness_medical_inc,fairness,medical,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 5",yes,3,5,True
+10,11,openai/gpt-4o-mini,authority_transport_inc,authority,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 7",yes,6,7,True
+10,12,openai/gpt-4o-mini,purity_military_con,purity,military,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6  ",no,3,6,True
+10,13,openai/gpt-4o-mini,loyalty_personal_inc,loyalty,personal,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+10,14,openai/gpt-4o-mini,fairness_medical_con,fairness,medical,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6  ",no,3,6,True
+10,15,openai/gpt-4o-mini,fairness_personal_con,fairness,personal,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+10,16,openai/gpt-4o-mini,loyalty_transport_con,loyalty,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,17,openai/gpt-4o-mini,care_military_inc,care,military,incongruent,"Answer: No  
+Likelihood: 7  
+Confidence: 5",no,7,5,True
+10,18,openai/gpt-4o-mini,loyalty_military_con,loyalty,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,19,openai/gpt-4o-mini,purity_science_con,purity,science,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,20,openai/gpt-4o-mini,authority_economic_inc,authority,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,21,openai/gpt-4o-mini,purity_medical_con,purity,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+10,22,openai/gpt-4o-mini,loyalty_law_inc,loyalty,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+10,23,openai/gpt-4o-mini,care_historical_con,care,historical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,24,openai/gpt-4o-mini,purity_historical_inc,purity,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,25,openai/gpt-4o-mini,care_historical_inc,care,historical,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,26,openai/gpt-4o-mini,care_law_con,care,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,27,openai/gpt-4o-mini,fairness_personal_inc,fairness,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+10,28,openai/gpt-4o-mini,fairness_transport_inc,fairness,transport,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+10,29,openai/gpt-4o-mini,fairness_economic_inc,fairness,economic,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+10,30,openai/gpt-4o-mini,loyalty_science_inc,loyalty,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,31,openai/gpt-4o-mini,fairness_economic_con,fairness,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,32,openai/gpt-4o-mini,authority_medical_inc,authority,medical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5  ",yes,6,5,True
+10,33,openai/gpt-4o-mini,purity_economic_inc,purity,economic,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,34,openai/gpt-4o-mini,authority_historical_con,authority,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,35,openai/gpt-4o-mini,care_economic_con,care,economic,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,36,openai/gpt-4o-mini,fairness_law_con,fairness,law,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+10,37,openai/gpt-4o-mini,care_medical_con,care,medical,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,38,openai/gpt-4o-mini,fairness_military_con,fairness,military,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,39,openai/gpt-4o-mini,care_military_con,care,military,congruent,"Answer: No  
+Likelihood: 7  
+Confidence: 5",no,7,5,True
+10,40,openai/gpt-4o-mini,authority_law_inc,authority,law,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+10,41,openai/gpt-4o-mini,authority_medical_con,authority,medical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,42,openai/gpt-4o-mini,loyalty_science_con,loyalty,science,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,43,openai/gpt-4o-mini,purity_military_inc,purity,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+10,44,openai/gpt-4o-mini,authority_military_inc,authority,military,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+10,45,openai/gpt-4o-mini,loyalty_law_con,loyalty,law,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True
+10,46,openai/gpt-4o-mini,care_law_inc,care,law,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,47,openai/gpt-4o-mini,purity_historical_con,purity,historical,congruent,"Answer: No  
+Likelihood: 4  
+Confidence: 5",no,4,5,True
+10,48,openai/gpt-4o-mini,loyalty_personal_con,loyalty,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,49,openai/gpt-4o-mini,authority_personal_con,authority,personal,congruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6  ",yes,5,6,True
+10,50,openai/gpt-4o-mini,loyalty_economic_con,loyalty,economic,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,51,openai/gpt-4o-mini,authority_economic_con,authority,economic,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 6  ",no,3,6,True
+10,52,openai/gpt-4o-mini,loyalty_historical_inc,loyalty,historical,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+10,53,openai/gpt-4o-mini,purity_personal_con,purity,personal,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6  ",no,2,6,True
+10,54,openai/gpt-4o-mini,fairness_law_inc,fairness,law,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+10,55,openai/gpt-4o-mini,purity_personal_inc,purity,personal,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,56,openai/gpt-4o-mini,purity_transport_inc,purity,transport,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+10,57,openai/gpt-4o-mini,care_personal_con,care,personal,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+10,58,openai/gpt-4o-mini,fairness_historical_con,fairness,historical,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,59,openai/gpt-4o-mini,fairness_science_con,fairness,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,60,openai/gpt-4o-mini,fairness_military_inc,fairness,military,incongruent,"Answer: Yes  
+Likelihood: 5  
+Confidence: 6",yes,5,6,True
+10,61,openai/gpt-4o-mini,fairness_science_inc,fairness,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 5",yes,6,5,True
+10,62,openai/gpt-4o-mini,authority_science_con,authority,science,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+10,63,openai/gpt-4o-mini,purity_science_inc,purity,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,64,openai/gpt-4o-mini,purity_law_con,purity,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6  ",yes,2,6,True
+10,65,openai/gpt-4o-mini,purity_economic_con,purity,economic,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,66,openai/gpt-4o-mini,care_science_inc,care,science,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,67,openai/gpt-4o-mini,care_personal_inc,care,personal,incongruent,"Answer: No  
+Likelihood: 2  
+Confidence: 6",no,2,6,True
+10,68,openai/gpt-4o-mini,purity_medical_inc,purity,medical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 5",yes,2,5,True
+10,69,openai/gpt-4o-mini,purity_transport_con,purity,transport,congruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+10,70,openai/gpt-4o-mini,authority_law_con,authority,law,congruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,71,openai/gpt-4o-mini,loyalty_medical_con,loyalty,medical,congruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7",no,1,7,True
+10,72,openai/gpt-4o-mini,authority_personal_inc,authority,personal,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+10,73,openai/gpt-4o-mini,purity_law_inc,purity,law,incongruent,"Answer: Yes  
+Likelihood: 3  
+Confidence: 6",yes,3,6,True
+10,74,openai/gpt-4o-mini,authority_science_inc,authority,science,incongruent,"Answer: Yes  
+Likelihood: 6  
+Confidence: 6",yes,6,6,True
+10,75,openai/gpt-4o-mini,care_economic_inc,care,economic,incongruent,"Answer: No  
+Likelihood: 1  
+Confidence: 7  ",no,1,7,True
+10,76,openai/gpt-4o-mini,care_science_con,care,science,congruent,"Answer: No  
+Likelihood: 6  
+Confidence: 5",no,6,5,True
+10,77,openai/gpt-4o-mini,care_transport_inc,care,transport,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+10,78,openai/gpt-4o-mini,fairness_historical_inc,fairness,historical,incongruent,"Answer: No  
+Likelihood: 3  
+Confidence: 5",no,3,5,True
+10,79,openai/gpt-4o-mini,authority_historical_inc,authority,historical,incongruent,"Answer: Yes  
+Likelihood: 2  
+Confidence: 6",yes,2,6,True
+10,80,openai/gpt-4o-mini,authority_transport_con,authority,transport,congruent,"Answer: No  
+Likelihood: 2  
+Confidence: 5",no,2,5,True

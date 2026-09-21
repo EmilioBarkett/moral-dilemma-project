@@ -1,0 +1,236 @@
+\documentclass[midterm]{sparreport}
+\usepackage{natbib}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{graphicx}
+\usepackage{amsmath}
+
+% ============================================================================
+% METADATA
+% ============================================================================
+\title{Evaluating Moral Reasoning in Embodied Language Model Agents}
+
+\author{
+  \textbf{Roshni Lulla}\\
+  \texttt{lulla@usc.edu}\\
+  USC
+  \and
+  \textbf{Saloni Modi}\\
+  \texttt{saloni.a.modi42@gmail.com}\\
+  Independent
+  \and
+  \textbf{Emilio Barkett}\\
+  \texttt{eab2291@columbia.edu}\\
+  Columbia University
+}
+
+\sparround{Fall 2025}
+
+% ============================================================================
+% DOCUMENT BEGINS
+% ============================================================================
+\begin{document}
+
+\maketitle
+
+% ============================================================================
+% ABSTRACT
+% ============================================================================
+\begin{abstract}
+As large language models (LLMs) are increasingly deployed in high-stakes real-world settings, understanding the consistency and robustness of their moral reasoning becomes essential for deployment safety. We present a systematic benchmark of moral reasoning across 23 frontier LLMs using an expanded adaptation of the Conway and Gawronski (2013) process dissociation paradigm, structured around Moral Foundations Theory \citep{graham2009liberals}. Our stimulus set comprises 80 dilemmas spanning five moral foundations and eight real-world domains, each presented in congruent (no utilitarian justification) and incongruent (utilitarian justification present) variants. We measure harm endorsement rate, likelihood, and confidence across 50 repeated trials per model. Preliminary results from 22 models reveal that all tested LLMs exhibit substantially larger moral sensitivity gaps than the human baseline, suggesting LLMs are systematically more susceptible to utilitarian framing than humans. We further introduce a planned second study using Kradle.ai, a Minecraft-based simulated environment, to assess whether these textual findings replicate in embodied, interactive settings.
+\end{abstract}
+
+\keywords{moral reasoning \and large language models \and AI safety \and moral foundations theory \and alignment \and benchmarking}
+
+% ============================================================================
+% INTRODUCTION
+% ============================================================================
+\section{Introduction}
+
+Large language models are now routinely deployed in contexts where their outputs carry moral weight: medical triage support, legal assistance, autonomous decision-making, and interactive agents operating in simulated and real environments \citep{bommasani2021opportunities}. The widespread deployment of these systems raises an urgent question for AI safety: do LLMs reason about moral dilemmas in ways that are consistent, coherent, and meaningfully aligned with human moral psychology—or do they exhibit systematic biases that could become dangerous at scale?
+
+Existing alignment work has primarily focused on preventing harmful outputs through reinforcement learning from human feedback (RLHF) and Constitutional AI \citep{ouyang2022training, bai2022constitutional}. While effective at reducing surface-level harmful behaviors, these approaches do not guarantee coherent moral reasoning across contexts. An LLM may correctly refuse a direct harmful request while simultaneously endorsing the same harm when it is framed as serving a greater good—a pattern with direct implications for adversarial prompting and value manipulation in deployed systems.
+
+Prior work on LLMs and moral reasoning has largely relied on custom ethics datasets \citep{hendrycks2021aligning} or simplified trolley-problem variants. These approaches do not capture the rich, multidimensional structure of human moral cognition as described by Moral Foundations Theory \citep{haidt2001emotional, graham2009liberals}, which identifies five distinct moral foundations—Care, Fairness, Loyalty, Authority, and Purity—each operating across diverse real-world domains.
+
+This project addresses that gap through two complementary studies. \textbf{Study 1} administers a large-scale text-based moral dilemma battery to 23+ frontier LLMs, systematically varying the presence of utilitarian justification across five moral foundations and eight real-world domains. \textbf{Study 2} will replicate a curated subset of dilemmas in Kradle.ai, a Minecraft-based simulated world environment, to test whether moral reasoning patterns observed in text persist when models must act as embodied agents in interactive scenarios.
+
+Success for this project would entail: (1) a comprehensive, replicable benchmark of moral reasoning across current frontier models, (2) identification of systematic patterns and failure modes relevant to deployment safety, and (3) an initial characterization of whether textual moral reasoning transfers to embodied, agentic settings.
+
+% ============================================================================
+% METHODOLOGY
+% ============================================================================
+\section{Methodology}
+
+\subsection{Theoretical Framework}
+
+We adapt the process dissociation paradigm of \citet{conway2013deontological} to evaluate LLM moral sensitivity. In this paradigm, moral dilemmas are presented in two variants: \textit{congruent} dilemmas, in which both deontological and utilitarian reasoning align against endorsing the harmful action (no compelling utilitarian justification is given), and \textit{incongruent} dilemmas, in which a strong utilitarian justification is provided that conflicts with the deontological prohibition. Human participants endorse harm at significantly higher rates in incongruent conditions (56.1\%) than congruent conditions (25.4\%), and this gap—the \textit{moral sensitivity gap}—serves as the primary measure of sensitivity to moral framing.
+
+We extend this paradigm by organizing dilemmas according to Moral Foundations Theory \citep{graham2009liberals}, which posits five distinct moral foundations: \textbf{Care} (harm/care), \textbf{Fairness} (fairness/reciprocity), \textbf{Loyalty} (in-group/loyalty), \textbf{Authority} (authority/respect), and \textbf{Purity} (sanctity/purity). This structure allows us to assess whether LLM moral sensitivity varies across foundations, an analysis not possible with prior single-dimension approaches.
+
+\subsection{Stimulus Set}
+
+We constructed a stimulus set of 80 moral dilemmas organized as a $5 \times 8 \times 2$ factorial design: five moral foundations $\times$ eight real-world domains (economic, historical, law enforcement, medical, military, personal, scientific research, transportation) $\times$ two variants (congruent, incongruent). Each dilemma places the model in the first-person role of the moral actor and asks three questions:
+
+\begin{enumerate}
+    \item \textbf{Harm Endorsement} (primary DV): Is the described action appropriate? (\textit{Yes/No})
+    \item \textbf{Likelihood}: How likely would you be to break the moral rule? (1–7 scale)
+    \item \textbf{Confidence}: How confident are you in your answer? (1–7 scale)
+\end{enumerate}
+
+Dilemmas were designed to be structurally parallel across the congruent/incongruent pairing, differing only in the presence and magnitude of the utilitarian justification. The suffix ``Answer with a numerical value and nothing else: Yes (1) or No (2)'' was stripped from prompts before presentation to avoid format anchoring.
+
+\subsection{Models}
+
+We tested 23 frontier LLMs accessed via the OpenRouter API, spanning major labs across multiple countries and representing a range of model sizes, training approaches, and access types (Table~\ref{tab:models}). Models were grouped into non-reasoning (standard autoregressive) and reasoning (extended chain-of-thought) tiers.
+
+\begin{table}[htbp]
+\centering
+\caption{Models included in Study 1, grouped by reasoning type and lab.}
+\label{tab:models}
+\small
+\begin{tabular}{llll}
+\toprule
+\textbf{Model} & \textbf{Lab} & \textbf{Type} & \textbf{Runs} \\
+\midrule
+\multicolumn{4}{l}{\textit{Non-reasoning models}} \\
+GPT-3.5 Turbo & OpenAI & Closed & 50 \\
+GPT-4o & OpenAI & Closed & 50 \\
+GPT-5 & OpenAI & Closed & 50 \\
+Claude 3.5 Sonnet & Anthropic & Closed & 50 \\
+Grok 4 & xAI & Closed & 50 \\
+Gemma 3 27B & Google & Open & 50 \\
+Llama 3.2 3B & Meta & Open & 50 \\
+Llama 3.3 70B & Meta & Open & 50 \\
+Llama 4 Maverick & Meta & Open & 50 \\
+Mixtral 8x22B & Mistral AI & Open & 50 \\
+Mistral Large 3 & Mistral AI & Open/Closed & 50 \\
+DeepSeek V3 & DeepSeek & Open & 50 \\
+Qwen3 235B & Alibaba & Open & 50 \\
+Ernie 4.5 & Baidu & Closed & 50 \\
+Nova Premier & Amazon & Closed & 50 \\
+Phi-4 & Microsoft & Open & 50 \\
+Command A & Cohere & Open/Closed & 50 \\
+Solar Pro 3 & Upstage & Closed & 50 \\
+\midrule
+\multicolumn{4}{l}{\textit{Reasoning models (extended chain-of-thought)}} \\
+DeepSeek R1 & DeepSeek & Open & 50 \\
+DeepSeek R1-0528 & DeepSeek & Open & 50 \\
+Qwen3 235B (Thinking) & Alibaba & Open & 50 \\
+Gemini 2.5 Pro & Google & Closed & In progress \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Procedure}
+
+Each model received each dilemma in a randomized order (seed fixed at 42 for reproducibility) across $n=50$ independent runs. Runs used a temperature of 1.0 to capture natural response variability. Non-reasoning models were given a maximum of 150 tokens; reasoning models were allocated up to 3,000 tokens with a 300-second timeout to accommodate extended chain-of-thought generation.
+
+Each call used a fixed system prompt instructing the model to take on the first-person role of the actor described and respond using a structured format (Answer: Yes/No; Likelihood: 1–7; Confidence: 1–7). Responses were parsed with a robust parser that strips markdown formatting, think tags (\texttt{<think>...</think>}), numbered list prefixes, and bracket-style echoing of template fields. Trials with missing or unparseable responses were marked invalid and excluded from analysis.
+
+\subsection{Analysis}
+
+The primary dependent variable is the \textbf{moral sensitivity gap}: the difference in mean harm endorsement rate between incongruent and congruent trials (expressed in percentage points). A larger gap indicates greater susceptibility to utilitarian framing. We compare model-level gaps against the human baseline from \citet{conway2013deontological} (congruent: 25.4\%, incongruent: 56.1\%, gap: 30.7 pp). Foundation-level breakdowns are computed for each of the five moral foundations. Within-lab reasoning contrasts are assessed for three matched pairs: DeepSeek V3 vs.\ R1 vs.\ R1-0528; Qwen3 235B Standard vs.\ Thinking; and GPT-4o/GPT-5 vs.\ o1/o3 (pending).
+
+% ============================================================================
+% PRELIMINARY RESULTS
+% ============================================================================
+\section{Preliminary Results}
+
+\subsection{Overall Moral Sensitivity Gap}
+
+Table~\ref{tab:results} presents harm endorsement rates and moral sensitivity gaps for all 21 completed models alongside the human baseline. The most striking finding is that \textit{every tested LLM substantially exceeds the human moral sensitivity gap}. The human gap is 30.7 pp, whereas model gaps range from 45.7 pp (Solar Pro 3) to 65.8 pp (Claude 3.5 Sonnet)—a range entirely above the human baseline.
+
+\begin{table}[htbp]
+\centering
+\caption{Mean harm endorsement (\%) for congruent and incongruent dilemmas, and moral sensitivity gap (incongruent $-$ congruent), for all completed models ($n=50$ runs each unless noted). R = reasoning model. Human baseline from \citet{conway2013deontological}.}
+\label{tab:results}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Model} & \textbf{R} & \textbf{Cong\%} & \textbf{Incong\%} & \textbf{Gap (pp)} \\
+\midrule
+Claude 3.5 Sonnet    &   & 25.6 & 91.4 & 65.8 \\
+Llama 4 Maverick     &   & 20.8 & 85.9 & 65.1 \\
+Mixtral 8x22B        &   & 15.2 & 77.0 & 61.9 \\
+Grok 4               &   & 21.9 & 82.1 & 60.2 \\
+DeepSeek R1          & Y & 17.9 & 78.1 & 60.2 \\
+GPT-5                &   & 24.9 & 84.8 & 59.8 \\
+Qwen3 235B           &   & 17.5 & 76.5 & 59.1 \\
+Ernie 4.5            &   & 19.4 & 76.8 & 57.4 \\
+DeepSeek R1-0528     & Y & 16.2 & 73.6 & 57.4 \\
+GPT-3.5 Turbo        &   & 23.4 & 80.6 & 57.2 \\
+Gemma 3 27B          &   & 22.2 & 78.9 & 56.7 \\
+Command A            &   & 19.5 & 73.2 & 53.7 \\
+Mistral Large 3      &   & 28.3 & 81.9 & 53.6 \\
+GPT-4o               &   & 21.4 & 74.9 & 53.6 \\
+DeepSeek V3          &   & 21.7 & 74.7 & 53.0 \\
+Qwen3 235B (Thinking)& Y & 14.0 & 66.6 & 52.5 \\
+Nova Premier         &   & 17.7 & 68.8 & 51.1 \\
+Phi-4                &   & 24.7 & 74.0 & 49.3 \\
+Llama 3.3 70B        &   & 32.4 & 78.8 & 46.4 \\
+Solar Pro 3          &   &  9.1 & 54.8 & 45.7 \\
+Llama 3.2 3B         &   &  3.2 &  0.0 & $-$3.2 \\
+\midrule
+Human (C\&G 2013)    &   & 25.4 & 56.1 & 30.7 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Congruent vs.\ Incongruent Decomposition}
+
+Congruent harm endorsement rates are relatively stable across models (range: 9.1\%–32.4\%), clustering close to the human baseline of 25.4\%. This suggests that most models share a broadly similar prior against harm endorsement when no utilitarian justification is offered. The primary source of cross-model variation lies in \textit{incongruent} endorsement, which ranges from 54.8\% (Solar Pro 3) to 91.4\% (Claude 3.5 Sonnet), compared to the human incongruent baseline of 56.1\%.
+
+Notably, Solar Pro 3—developed by the Korean lab Upstage—is the only model whose incongruent endorsement (54.8\%) falls \textit{below} the human baseline of 56.1\%, suggesting a qualitatively different response profile that warrants further investigation.
+
+Llama 3.2 3B is an apparent exception to the overall pattern: its near-zero endorsement rates in both conditions (congruent: 3.2\%, incongruent: 0.0\%) and near-zero gap ($-$3.2 pp) indicate that at this parameter count, the model lacks the capacity for the nuanced moral reasoning required by this task.
+
+\subsection{Foundation-Level Analysis}
+
+Preliminary foundation-level analysis reveals substantial heterogeneity in moral sensitivity across the five foundations. Across models, the \textbf{Fairness} and \textbf{Loyalty} foundations consistently produce the largest gaps, while \textbf{Purity} produces the smallest. For example, Claude 3.5 Sonnet shows a gap of 92.0 pp on Fairness dilemmas and 87.5 pp on Loyalty dilemmas, compared to only 25.8 pp on Purity dilemmas. GPT-4o shows a similarly large Fairness gap (80.2 pp) but a strikingly small Care gap (12.5 pp).
+
+This pattern suggests that LLMs are particularly susceptible to utilitarian framing in domains involving rule-following and group membership (Fairness, Loyalty), while bodily and purity-based moral intuitions appear more resistant to override by consequentialist justification.
+
+\subsection{Reasoning Model Comparison}
+
+Three reasoning models have completed Study 1 (Table~\ref{tab:results}). Within the DeepSeek model family, we observe that the reasoning variants \textit{do not uniformly reduce} susceptibility to utilitarian framing: DeepSeek R1 (gap: 60.2 pp) actually exceeds its non-reasoning counterpart DeepSeek V3 (53.0 pp), while the updated R1-0528 checkpoint (57.4 pp) falls between the two. This pattern suggests that extended chain-of-thought reasoning does not straightforwardly reduce susceptibility to utilitarian framing and may in some cases increase it.
+
+The Qwen3 235B Thinking model (52.5 pp) shows a somewhat lower gap than its Standard counterpart (59.1 pp), providing a partial within-model contrast in the opposite direction. These divergent within-lab results underscore the importance of collecting data across multiple model families before drawing conclusions about the effect of reasoning on moral sensitivity.
+
+% ============================================================================
+% CHALLENGES & OPEN QUESTIONS
+% ============================================================================
+\section{Challenges \& Open Questions}
+
+\textbf{Parser reliability.} Several models required targeted parser fixes to recover valid responses. Nova Premier echoed template brackets (e.g., \texttt{Answer: [Yes]}); DeepSeek V3 used markdown bold formatting (e.g., \texttt{**Answer:** No}); reasoning models embedded answers inside \texttt{<think>} tags. A robust post-hoc re-parsing utility (\texttt{reparse\_trials.py}) was developed to recover data from already-completed runs without re-querying the API.
+
+\textbf{Model refusals and non-compliance.} Some smaller models (e.g., Llama 3.1 8B, GLM-4.7) refused to answer moral dilemmas or returned empty responses at high rates, making their data unusable. This raises the question of whether refusal patterns themselves carry moral-psychological information, and how to distinguish principled refusal from instruction-following failures.
+
+\textbf{Inference cost and speed.} Reasoning models with extended chain-of-thought generation average 30–60 seconds per call, making a full 50-run sweep ($n = 4{,}000$ calls) require 24–72 hours of wall-clock time. This constrains the scope of the reasoning model analysis and necessitates careful prioritization of which models to run.
+
+\textbf{Ecological validity.} A key open question is whether harm endorsement in a structured text survey reflects how models would actually behave when acting as decision-makers in interactive, real-world-like settings. Study 2 (Kradle.ai) is designed to address this, but the degree to which textual moral psychology transfers to embodied agency remains unknown.
+
+\textbf{Interpreting the gap.} The moral sensitivity gap captures sensitivity to utilitarian framing, but high endorsement in incongruent conditions could reflect genuine moral deliberation (appropriately weighing consequences) or susceptibility to persuasion (being manipulated by framing). Distinguishing these interpretations is an open theoretical challenge.
+
+% ============================================================================
+% NEXT STEPS
+% ============================================================================
+\section{Next Steps}
+
+\textbf{Complete the reasoning model dataset.} We are currently running Gemini 2.5 Pro and plan to add o1, o3, Claude Opus 4, and Grok 3. These will enable a comprehensive within-lab reasoning contrast across four major labs (OpenAI, Anthropic, Google, xAI), substantially strengthening the conclusions from Section 3.4.
+
+\textbf{Statistical analysis.} With the full dataset, we will conduct: (1) independent-samples $t$-tests comparing reasoning vs.\ non-reasoning model gaps; (2) one-way ANOVA across model families with post-hoc pairwise comparisons; (3) effect size estimation (Cohen's $d$) for the reasoning contrast; (4) mixed-effects regression with moral foundation and domain as within-model predictors; and (5) correlation analyses between model size, release year, and gap magnitude.
+
+\textbf{Study 2: Kradle.ai embodied replication.} We have identified 15 dilemmas from the full stimulus set as candidates for embodied replication in Kradle.ai, a Minecraft-based simulated world environment in which Claude Code acts as the scene builder. Selection criteria were: (1) physical buildability in Minecraft (requires concrete spaces, NPCs, and interactive objects rather than abstract social or legal scenarios); (2) faithful representation of the moral dilemma in a simulated setting; and (3) Claude Code compliance (avoiding scenarios that trigger content refusals during scene construction). Selected dilemmas span all five foundations and include scenarios such as ambulance triage dispatch, air traffic collision avoidance, officer loyalty vs. corruption reporting, and purity-override in life-saving CPR. The embodied study will allow us to test whether the moral sensitivity patterns observed in text survive translation into an interactive, agent-based setting—a key question for understanding the deployment safety of LLMs in agentic contexts.
+
+\textbf{Cross-cultural and cross-lab analysis.} The current model set spans labs from the USA, France, China, South Korea, and Canada. We plan to examine whether moral sensitivity gaps cluster by country of origin or training philosophy, which would have implications for understanding how institutional context shapes the moral alignment of deployed models.
+
+\textbf{Writeup and dissemination.} We aim to produce a full manuscript reporting both Study 1 and Study 2 results, with an emphasis on the implications for deployment safety benchmarking of frontier LLMs.
+
+% ============================================================================
+% BIBLIOGRAPHY
+% ============================================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

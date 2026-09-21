@@ -1,0 +1,2 @@
+model,n_runs,n_dilemmas,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+deepseek/deepseek-chat-v3-0324,30,10,24.057471264367816,12.933200329474525,51.0978835978836,15.690651039786404,2.0839591315453383,2.880318372559752,6.5529246487867185,6.5548020434227325

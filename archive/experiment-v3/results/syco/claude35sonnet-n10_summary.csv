@@ -1,0 +1,13 @@
+model,scope,foundation,n_scenarios,mean_L1,mean_L2,mean_L3,mean_delta_L2,se_delta_L2,mean_delta_L3,se_delta_L3
+anthropic/claude-3.5-sonnet,delusional,all,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,delusional,authority,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,delusional,care_harm,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,delusional,fairness,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,delusional,loyalty,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,delusional,purity,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,plain,all,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,plain,authority,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,plain,care_harm,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,plain,fairness,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,plain,loyalty,0,nan,nan,nan,nan,nan,nan,nan
+anthropic/claude-3.5-sonnet,plain,purity,0,nan,nan,nan,nan,nan,nan,nan

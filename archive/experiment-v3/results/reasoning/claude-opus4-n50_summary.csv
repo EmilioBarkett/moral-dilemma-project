@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+anthropic/claude-opus-4,foundation,authority,50,8,25.0,16.366341767699428,95.0,5.0,2.605,6.4175,6.2675,6.2525
+anthropic/claude-opus-4,foundation,care,50,8,12.5,12.5,25.0,16.366341767699428,2.0125,2.8525,6.4375,5.2299999999999995
+anthropic/claude-opus-4,foundation,fairness,50,8,0.0,0.0,69.75,15.470882789476308,1.6425,4.9675,6.355,5.295
+anthropic/claude-opus-4,foundation,loyalty,50,8,0.0,0.0,75.0,16.366341767699428,1.7650000000000001,5.3975,6.1075,5.795
+anthropic/claude-opus-4,foundation,purity,50,7,57.142857142857146,20.203050891044214,100.0,0.0,3.7857142857142856,6.491428571428571,6.122857142857143,6.5371428571428565
+anthropic/claude-opus-4,overall,all,50,39,17.94871794871795,6.225404909403937,72.25641025641026,6.984918972200204,2.325641025641026,5.192820512820513,6.2615384615384615,5.803589743589744

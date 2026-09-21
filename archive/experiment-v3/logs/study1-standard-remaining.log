@@ -1,0 +1,65 @@
+08:12:35 [INFO] Loaded 80 dilemmas (new format) from '../moral_dilemmas_survey_revised.csv'.
+08:12:35 [INFO] Trials will be written live to 'results/study1-standard-remaining_trials.csv'.
+08:12:35 [INFO] Starting | model=openai/gpt-5 | runs=50 | temp=1.0 | mode=full | total calls=4000
+08:12:35 [INFO] --- Run 1/50 ---
+08:12:35 [INFO]   Call 1/4000 | loyalty_economic_inc
+08:12:47 [ERROR]   API error loyalty_economic_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:12:47 [WARNING]   Incomplete response loyalty_economic_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:12:47 [INFO]   Call 2/4000 | ETA 13h 47m 48s | loyalty_transport_inc
+08:12:54 [ERROR]   API error loyalty_transport_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:12:54 [WARNING]   Incomplete response loyalty_transport_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:12:55 [INFO]   Call 3/4000 | ETA 10h 56m 36s | care_medical_inc
+08:12:59 [ERROR]   API error care_medical_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:12:59 [WARNING]   Incomplete response care_medical_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:12:59 [INFO]   Call 4/4000 | ETA 8h 51m 6s | loyalty_historical_con
+08:13:03 [ERROR]   API error loyalty_historical_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:03 [WARNING]   Incomplete response loyalty_historical_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:03 [INFO]   Call 5/4000 | ETA 7h 50m 21s | care_transport_con
+08:13:13 [ERROR]   API error care_transport_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:13 [WARNING]   Incomplete response care_transport_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:13 [INFO]   Call 6/4000 | ETA 8h 29m 11s | loyalty_medical_inc
+08:13:16 [ERROR]   API error loyalty_medical_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:13:16 [WARNING]   Incomplete response loyalty_medical_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:17 [INFO]   Call 7/4000 | ETA 7h 42m 43s | authority_military_con
+08:13:23 [ERROR]   API error authority_military_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:23 [WARNING]   Incomplete response authority_military_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:23 [INFO]   Call 8/4000 | ETA 7h 41m 49s | fairness_transport_con
+08:13:27 [ERROR]   API error fairness_transport_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:27 [WARNING]   Incomplete response fairness_transport_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:27 [INFO]   Call 9/4000 | ETA 7h 12m 10s | loyalty_military_inc
+08:13:30 [ERROR]   API error loyalty_military_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:13:30 [WARNING]   Incomplete response loyalty_military_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:30 [INFO]   Call 10/4000 | ETA 6h 50m 1s | fairness_medical_inc
+08:13:33 [ERROR]   API error fairness_medical_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:13:33 [WARNING]   Incomplete response fairness_medical_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:34 [INFO]   Call 11/4000 | ETA 6h 31m 7s | authority_transport_inc
+08:13:37 [ERROR]   API error authority_transport_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:13:37 [WARNING]   Incomplete response authority_transport_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:37 [INFO]   Call 12/4000 | ETA 6h 14m 10s | purity_military_con
+08:13:41 [ERROR]   API error purity_military_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:41 [WARNING]   Incomplete response purity_military_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:41 [INFO]   Call 13/4000 | ETA 6h 7m 43s | loyalty_personal_inc
+08:13:45 [ERROR]   API error loyalty_personal_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:13:45 [WARNING]   Incomplete response loyalty_personal_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:45 [INFO]   Call 14/4000 | ETA 5h 59m 1s | fairness_medical_con
+08:13:48 [ERROR]   API error fairness_medical_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:48 [WARNING]   Incomplete response fairness_medical_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:49 [INFO]   Call 15/4000 | ETA 5h 49m 59s | fairness_personal_con
+08:13:56 [ERROR]   API error fairness_personal_con run 1: expected string or bytes-like object, got 'NoneType'
+08:13:56 [WARNING]   Incomplete response fairness_personal_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:13:56 [INFO]   Call 16/4000 | ETA 5h 58m 29s | loyalty_transport_con
+08:14:02 [ERROR]   API error loyalty_transport_con run 1: expected string or bytes-like object, got 'NoneType'
+08:14:02 [WARNING]   Incomplete response loyalty_transport_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:14:02 [INFO]   Call 17/4000 | ETA 6h 1m 48s | care_military_inc
+08:14:05 [ERROR]   API error care_military_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:14:05 [WARNING]   Incomplete response care_military_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:14:05 [INFO]   Call 18/4000 | ETA 5h 53m 20s | loyalty_military_con
+08:14:09 [ERROR]   API error loyalty_military_con run 1: expected string or bytes-like object, got 'NoneType'
+08:14:09 [WARNING]   Incomplete response loyalty_military_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:14:09 [INFO]   Call 19/4000 | ETA 5h 48m 37s | purity_science_con
+08:14:18 [ERROR]   API error purity_science_con run 1: expected string or bytes-like object, got 'NoneType'
+08:14:18 [WARNING]   Incomplete response purity_science_con run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:14:18 [INFO]   Call 20/4000 | ETA 6h 0m 13s | authority_economic_inc
+08:14:23 [ERROR]   API error authority_economic_inc run 1: expected string or bytes-like object, got 'NoneType'
+08:14:23 [WARNING]   Incomplete response authority_economic_inc run 1: 'ERROR: expected string or bytes-like object, got 'NoneType''
+08:14:23 [INFO]   Call 21/4000 | ETA 5h 57m 45s | purity_medical_con

@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+meta-llama/llama-3.2-3b-instruct,foundation,authority,50,6,0.0,0.0,0.0,0.0,2.36,2.1666666666666665,4.57,4.166666666666667
+meta-llama/llama-3.2-3b-instruct,foundation,care,50,0,nan,nan,nan,nan,nan,nan,nan,nan
+meta-llama/llama-3.2-3b-instruct,foundation,fairness,50,7,0.0,0.0,0.0,0.0,2.8514285714285714,2.7685714285714282,5.077142857142857,5.042857142857143
+meta-llama/llama-3.2-3b-instruct,foundation,loyalty,50,7,0.0,0.0,0.0,0.0,2.5,2.0571428571428574,5.0,4.194285714285714
+meta-llama/llama-3.2-3b-instruct,foundation,purity,50,4,12.5,12.5,0.0,0.0,2.4,2.245,4.675,4.07
+meta-llama/llama-3.2-3b-instruct,overall,all,50,24,3.225806451612903,3.225806451612904,0.0,0.0,2.51741935483871,2.3233333333333333,4.82258064516129,4.414166666666667

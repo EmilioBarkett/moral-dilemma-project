@@ -1,0 +1,12 @@
+run,position,model,dilemma_id,foundation,domain,variant,raw_response,endorsement,likelihood,confidence,fully_valid
+1,1,z-ai/glm-4.7,loyalty_economic_inc,loyalty,economic,incongruent,"Answer: No
+Likelihood: 2
+Confidence: 3",no,2,3,True
+1,2,z-ai/glm-4.7,loyalty_transport_inc,loyalty,transport,incongruent,,,,,False
+1,3,z-ai/glm-4.7,care_medical_inc,care,medical,incongruent,,,,,False
+1,4,z-ai/glm-4.7,loyalty_historical_con,loyalty,historical,congruent,,,,,False
+1,5,z-ai/glm-4.7,care_transport_con,care,transport,congruent,,,,,False
+1,6,z-ai/glm-4.7,loyalty_medical_inc,loyalty,medical,incongruent,,,,,False
+1,7,z-ai/glm-4.7,authority_military_con,authority,military,congruent,,,,,False
+1,8,z-ai/glm-4.7,fairness_transport_con,fairness,transport,congruent,,,,,False
+1,9,z-ai/glm-4.7,loyalty_military_inc,loyalty,military,incongruent,,,,,False

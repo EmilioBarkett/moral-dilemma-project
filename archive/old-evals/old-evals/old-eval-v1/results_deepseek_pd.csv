@@ -1,0 +1,11 @@
+dilemma_id,dilemma_name,p_inapp_congruent,p_inapp_incongruent,U,D,n_valid_congruent,n_valid_incongruent,U_valid,D_valid,notes
+abortion,Abortion,0.0,0.0,0.0,0.0,30,30,True,True,
+animal_research,Animal Research,0.3448275862068966,0.0,0.3448275862068966,0.0,29,30,True,True,
+border_crossing,Border Crossing,1.0,0.03333333333333333,0.9666666666666667,1.0000000000000002,30,30,True,False,"D=1.0000 outside [0,1] — interpret with caution."
+car_accident,Car Accident,1.0,0.8,0.19999999999999996,1.0,30,30,True,True,
+crying_baby,Crying Baby,0.9666666666666667,0.6666666666666666,0.30000000000000004,0.9523809523809524,30,30,True,True,
+hard_times,Hard Times,1.0,1.0,0.0,1.0,30,30,True,True,
+relationship,Relationship,1.0,1.0,0.0,1.0,30,30,True,True,
+time_machine,Time Machine,1.0,1.0,0.0,1.0,30,30,True,True,
+torture,Torture,1.0,0.9666666666666667,0.033333333333333326,1.0,29,30,True,True,
+vaccine_policy,Vaccine Policy,0.0,0.0,0.0,0.0,30,30,True,True,

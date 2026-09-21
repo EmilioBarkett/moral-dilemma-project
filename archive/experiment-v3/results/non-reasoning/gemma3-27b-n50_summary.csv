@@ -1,0 +1,7 @@
+model,level,foundation,n_runs,n_dilemma_pairs,mean_harm_endorsement_congruent,se_harm_endorsement_congruent,mean_harm_endorsement_incongruent,se_harm_endorsement_incongruent,mean_likelihood_congruent,mean_likelihood_incongruent,mean_confidence_congruent,mean_confidence_incongruent
+google/gemma-3-27b-it,foundation,authority,50,8,40.5,16.75346446048015,100.0,0.0,3.1225,6.3100000000000005,6.525,6.425
+google/gemma-3-27b-it,foundation,care,50,8,12.5,12.5,31.5,16.23818251617377,2.02,3.04,6.87,6.6575
+google/gemma-3-27b-it,foundation,fairness,50,8,0.0,0.0,88.0,7.864931204857601,1.925,5.66,6.9575,6.015
+google/gemma-3-27b-it,foundation,loyalty,50,8,0.0,0.0,75.0,16.366341767699428,1.995,5.2675,6.685,6.275
+google/gemma-3-27b-it,foundation,purity,50,8,58.25,17.531349471324628,100.0,0.0,2.67,5.6675,6.695,6.8725000000000005
+google/gemma-3-27b-it,overall,all,50,40,22.25,6.374704618596768,78.9,6.1556519786332355,2.3465,5.189,6.7465,6.449
