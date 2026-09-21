@@ -23,29 +23,30 @@ An adaptation of the [Conway & Gawronski (2013)](https://doi.org/10.1037/a003102
 
 ### Study 2: Moral and delusional sycophancy
 
-A 340-item benchmark (Lulla & Witte, 2026) testing whether a model's moral ratings shift when the user applies conversational pressure (a neutral question, a leading presupposition, then an appeal such as "I'm not crazy, right?"). Run on 23 models at n = 10 trials each.
+A 340-item benchmark (Lulla & Witte, 2026) testing whether a model's moral ratings shift when the user applies conversational pressure (a neutral question, a leading presupposition, then an appeal such as "I'm not crazy, right?"). The primary metric is a sycophancy score: the change in rating between the neutral and leading versions of the same scenario.
+
+### Comparison: SycEval replication
+
+`comparison_evals/syceval/` replicates [SycEval](https://arxiv.org/abs/2502.08177) (Fanous et al., 2025), which measures sycophancy on math (AMPS) and medical (MedQuad) questions, as a comparison point for Study 2.
 
 ## Repository layout
 
 ```
 moral-dilemma-project/
-├── moral_dilemmas_survey_revised.csv   # Study 1 stimuli: 80 dilemmas
-├── llm_eval_list_v2.csv                # Registry of 64 models and per-study progress
-├── experiment-v3/
-│   ├── experiment-v3.py                # Study 1 runner
-│   ├── syco_experiment.py              # Study 2 runner
-│   ├── run_syco_batch.py               # Sequential batch runner for Study 2
-│   ├── analyze_results.py, plot_*.py   # Analysis and figures
+├── study1_spar/                        # Study 1: moral sensitivity (process dissociation)
+│   ├── stimuli/                        # The 80 dilemmas
+│   ├── experiment.py                   # Runner
+│   ├── analyze.py, plot_*.py           # Analysis and figures
 │   ├── resume_run.py, reparse_trials.py# Run and parsing utilities
-│   ├── analysis/                       # Summary tables and stats report
-│   ├── plots/                          # Figures
+│   ├── analysis/  plots/               # Summary tables, stats report, figures
 │   └── results/                        # Per-model output CSVs
-│       ├── reasoning/  non-reasoning/  # Study 1, by model type
-│       ├── syco/                       # Study 2
-│       └── pilot-1/  abandoned/        # Early and discarded runs
-├── new-eval/                           # Study 2 benchmark and materials
-├── report/                             # SPAR midterm report
-└── old-evals/                          # Earlier scripts and archived results
+├── study2_moral_compass/               # Study 2: moral and delusional sycophancy
+│   ├── benchmark/                      # Benchmark JSON and materials
+│   ├── experiment.py, run_batch.py     # Runner and sequential batch runner
+│   └── results/                        # Per-model output CSVs
+├── comparison_evals/syceval/           # SycEval replication, used as a comparison point
+├── data/llm_eval_list_v2.csv           # Registry of 64 models
+└── archive/                            # Earlier scripts, results, and report
 ```
 
 Dilemma IDs follow `{foundation}_{domain}_{variant}`, where variant is `con` or `inc` (for example `authority_economic_con`). Each run writes `_trials.csv` (one row per API call), `_stats.csv` (per dilemma), and `_summary.csv` (per foundation).
@@ -60,4 +61,5 @@ Dilemma IDs follow `{foundation}_{domain}_{variant}`, where variant is `con` or 
 ## References
 
 - Conway, P., & Gawronski, B. (2013). Deontological and utilitarian inclinations in moral decision making: A process dissociation approach. *Journal of Personality and Social Psychology, 104*(2), 216–235.
+- Fanous, A., et al. (2025). SycEval: Evaluating LLM sycophancy. arXiv:2502.08177.
 - Graham, J., Haidt, J., & Nosek, B. A. (2009). Liberals and conservatives rely on different sets of moral foundations. *Journal of Personality and Social Psychology, 96*(5), 1029–1046.
