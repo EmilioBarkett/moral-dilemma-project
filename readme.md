@@ -44,7 +44,6 @@ moral-dilemma-project/
 │       ├── syco/                       # Study 2
 │       └── pilot-1/  abandoned/        # Early and discarded runs
 ├── new-eval/                           # Study 2 benchmark and materials
-├── paper/                              # Study 1 manuscript draft
 ├── report/                             # SPAR midterm report
 └── old-evals/                          # Earlier scripts and archived results
 ```
