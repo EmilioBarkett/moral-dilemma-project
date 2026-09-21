@@ -1,1 +1,28 @@
+# Secrets
 .env
+
+# OS / editor
+.DS_Store
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+*.log
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.toc
+
+# Manuscript draft (not published)
+paper/
