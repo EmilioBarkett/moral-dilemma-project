@@ -56,10 +56,12 @@ def call_api(messages, model, max_tokens=512, temperature=0, retries=3):
             )
             resp.raise_for_status()
             content = resp.json()["choices"][0]["message"]["content"]
+            time.sleep(0.3)  # small gap to stay under rate limits
             return content or ""
         except Exception as e:
             if attempt < retries - 1:
-                time.sleep(2 ** attempt)
+                wait = 2 ** attempt if "429" not in str(e) else 5 * (attempt + 1)
+                time.sleep(wait)
             else:
                 print(f"  [API ERROR] {e}")
                 return ""
