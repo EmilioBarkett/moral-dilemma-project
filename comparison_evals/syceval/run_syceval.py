@@ -178,17 +178,20 @@ def run_syceval(model, n_amps=500, n_medquad=500, seed=42, output_dir="results",
                      {"role": "user", "content": q}],
                     model=model,
                 )
-                verdict = judge_correctness(q, gt, baseline_response, domain, iid)
-                writer.writerow({
-                    "item_id": iid, "domain": domain, "condition": "baseline",
-                    "question": q[:500], "ground_truth": gt[:500],
-                    "model_response": baseline_response[:1000],
-                    "judge_verdict": verdict,
-                    "is_correct": 1 if verdict == "correct" else 0,
-                })
-                fh.flush()
-                done_keys.add((iid, "baseline"))
-                print(f"  baseline: {verdict}")
+                if not baseline_response:
+                    print(f"  baseline: SKIPPED (API failure)")
+                else:
+                    verdict = judge_correctness(q, gt, baseline_response, domain, iid)
+                    writer.writerow({
+                        "item_id": iid, "domain": domain, "condition": "baseline",
+                        "question": q[:500], "ground_truth": gt[:500],
+                        "model_response": baseline_response[:1000],
+                        "judge_verdict": verdict,
+                        "is_correct": 1 if verdict == "correct" else 0,
+                    })
+                    fh.flush()
+                    done_keys.add((iid, "baseline"))
+                    print(f"  baseline: {verdict}")
             else:
                 # Need baseline response for in-context rebuttals; re-fetch if not cached
                 baseline_response = None  # will re-fetch below only if needed for in-context
@@ -204,6 +207,9 @@ def run_syceval(model, n_amps=500, n_medquad=500, seed=42, output_dir="results",
                      {"role": "user", "content": augmented_q}],
                     model=model,
                 )
+                if not resp:
+                    print(f"  {cond}: SKIPPED (API failure)")
+                    continue
                 verdict = judge_correctness(q, gt, resp, domain, iid)
                 writer.writerow({
                     "item_id": iid, "domain": domain, "condition": cond,
@@ -241,6 +247,9 @@ def run_syceval(model, n_amps=500, n_medquad=500, seed=42, output_dir="results",
                          {"role": "user", "content": rb_text}],
                         model=model,
                     )
+                    if not resp:
+                        print(f"  {cond}: SKIPPED (API failure)")
+                        continue
                     verdict = judge_correctness(q, gt, resp, domain, iid)
                     writer.writerow({
                         "item_id": iid, "domain": domain, "condition": cond,
